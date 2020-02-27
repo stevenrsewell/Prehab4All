@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React, { Component } from "react";
+import React from "react";
+import { HashRouter, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router} from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import Directory from "./pages/Directory";
+import About from "./pages/Signin";
+import About from "./pages/Login";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <HashRouter basename='/'>
+      <div>
+        <Navbar />
+          <Wrapper>           
+              <Route exact path="/" component={About} /> 
+              <Route exact path="/about" component={About} />
+              <Route exact path="/directory" component={Directory} />
+              <Route exact path="/signin" component={Signin} />
+              <Route exact path="/login" component={Login} />
+              
+          </Wrapper> 
+        <Footer /> 
+      </div>
+    </HashRouter>
   );
 }
 
 export default App;
+
