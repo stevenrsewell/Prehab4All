@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://www.zf.com/master/media/corporate/m_zf_com/company/bonds_relations_/investor_relations_overview/2017_03_22_ir_stage2017_mzw.jpg">
+      <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
         <h1>Prehab: See you in health!</h1>
       </Hero>
       
