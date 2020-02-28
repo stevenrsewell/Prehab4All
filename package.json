@@ -3,13 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-instagram-embed": "^1.5.0",
-    "react-scripts": "3.4.0"
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.16"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -31,10 +28,5 @@
   "bugs": {
     "url": "https://github.com/stevenrsewell/Prehab4All/issues"
   },
-  "homepage": "https://github.com/stevenrsewell/Prehab4All#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "mongoose": "^5.3.16"
-  }
+  "homepage": "https://github.com/stevenrsewell/Prehab4All#readme"
 }
