@@ -1,6 +1,7 @@
-// import React, { Component } from "react";
-import React from "react";
+import React from 'react';
+// import { Router ,Switch ,Route } from "react-router-dom";
 import Login from "./components/Login"
+
 import Signup from "./components/Signup"
 function App() {
 
@@ -13,4 +14,3 @@ function App() {
 }
 
 export default App;
-
