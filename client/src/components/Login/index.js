@@ -31,11 +31,11 @@ function Login() {
           API.getUserHash(email).then(response => {
             console.log("hash response", response.data);
             window.localStorage.setItem("userID", response.data._id);
-            window.location.reload();
+           
 
           });
          alert("successful Login");
-
+         window.location.replace("/About");
           handleClose();
         } else {
           console.log("No user exit");
@@ -55,19 +55,7 @@ function Login() {
   return (
     <MDBContainer>
       {/* Login */}
-       {!userId || userId === "" ? (
-          <Button id="login-modal-button" onClick={handleShow}>
-            <i id="login-button-icon" className="fas fa-sign-in-alt"></i>
-            <p>Sign-In </p>
-          </Button>
-        ) : (
-          <Link to="/">
-            <Button id="logout-modal-button" onClick={handleLogout}>
-              <i id="logout-button-icon" className="fas fa-sign-out-alt"></i>
-              <p>Sign-Out</p>
-            </Button>
-          </Link>
-        )}
+    
         
         <MDBRow>
     <MDBCol md="6">
@@ -80,12 +68,22 @@ function Login() {
           <MDBInput label="Type your password" icon="lock" group type="password" validate  value={password || ''}
                 onChange={handlePassword} />
         </div>
-        <div className="text-center">
-          <MDBBtn id="sign-in" variant="primary" onClick={handleSignIn}> signin</MDBBtn>
-        </div>
+        
       </form>
     </MDBCol>
   </MDBRow>
+  {!userId || userId === "" ? (
+          <div className="text-center">
+          <MDBBtn id="sign-in" variant="primary" onClick={handleSignIn}> signin</MDBBtn>
+        </div> 
+        ) : (
+          <Link to="/About">
+            <Button id="logout-modal-button" onClick={handleLogout}>
+              <i id="logout-button-icon" className="fas fa-sign-out-alt"></i>
+              <p>Sign-Out</p>
+            </Button>
+          </Link>
+        )}
 
   </MDBContainer>
   );

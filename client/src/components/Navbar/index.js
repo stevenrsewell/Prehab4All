@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+// import Login from "./Login";
+// import Signup from "./Signup";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar(props) {
@@ -53,14 +55,14 @@ function Navbar(props) {
         : //if not logged in 
 
         <ul>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/signin"
               className={window.location.pathname === "/signin" ? "nav-link active" : "nav-link"}
             >
               Sign up
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <Link
