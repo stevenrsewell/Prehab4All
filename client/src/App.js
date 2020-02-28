@@ -9,23 +9,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
+import React from 'react';
+// import { Router ,Switch ,Route } from "react-router-dom";
+import Login from "./components/Login"
+
+import Signup from "./components/Signup"
 function App() {
 
   return (
-     <HashRouter basename='/'>
-      <div>
-        <Navbar />
-          <Wrapper>           
-              <Route exact path="/" component={About} /> 
-              <Route exact path="/about" component={About} />
-              <Route exact path="/directory" component={Directory} />
-              <Route exact path="/signin" component={Signin} />
-              <Route exact path="/login" component={Login} />
-              
-          </Wrapper> 
-        <Footer /> 
-      </div>
-    </HashRouter>
+    <div className="App">
+   <Login  login={Login}/>
+   <Signup  Signup={Signup}/>
+  </div>
   );
 }
 
