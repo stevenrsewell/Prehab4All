@@ -7,8 +7,8 @@ import API from "../../utils/API";
 let userId = localStorage.getItem("userID");
 
 function Login() {
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -34,7 +34,7 @@ function Login() {
             window.location.reload();
 
           });
-          console.log("successful Login");
+         alert("successful Login");
 
           handleClose();
         } else {
@@ -58,7 +58,7 @@ function Login() {
        {!userId || userId === "" ? (
           <Button id="login-modal-button" onClick={handleShow}>
             <i id="login-button-icon" className="fas fa-sign-in-alt"></i>
-            <p>Sign-In</p>
+            <p>Sign-In </p>
           </Button>
         ) : (
           <Link to="/">
@@ -75,9 +75,9 @@ function Login() {
         <p className="h5 text-center mb-4">Sign in</p>
         <div className="grey-text">
           <MDBInput label="Type your email" icon="envelope" group type="email" validate error="wrong"
-            success="right"  value={email}
+            success="right"  value={email || ''}
             onChange={handleEmail}/>
-          <MDBInput label="Type your password" icon="lock" group type="password" validate  value={password}
+          <MDBInput label="Type your password" icon="lock" group type="password" validate  value={password || ''}
                 onChange={handlePassword} />
         </div>
         <div className="text-center">

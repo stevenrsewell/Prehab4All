@@ -9,10 +9,10 @@ import {
 import API from "../../utils/API";
 
 function Signup() {
-  const [firstName, setFirstName] = useState();
-  const [lastName, setLastName] = useState();
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -68,20 +68,19 @@ function Signup() {
 
 
         <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
+        <Modal.Header closeButton>
             <Modal.Title id="modal-heading">
-              <span id="apling">PreHab</span>
-              <br />
-              Sign-Up
+              <br/>
+                Sign-Up
               </Modal.Title>
           </Modal.Header>
 
 
-          <Modal.Body id="login-modal-body">
+            <Modal.Body id="login-modal-body">
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon1">
-                  <i id="first-name-logo" className="fas fa-leaf"></i> First Name
+                <i id="first-name-logo" className="fas fa-leaf"></i> First Name
                 </InputGroup.Text>
               </InputGroup.Prepend>
               <FormControl
@@ -90,7 +89,7 @@ function Signup() {
                 aria-describedby="basic-addon1"
                 type="text"
                 name="firstName"
-                value={firstName}
+                value={firstName || ''}
                 onChange={handleFirstName}
               />
             </InputGroup>
@@ -99,7 +98,7 @@ function Signup() {
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon1">
-
+                <i id="first-name-logo" className="fas fa-leaf"></i> Last Name
                 </InputGroup.Text>
               </InputGroup.Prepend>
               <FormControl
@@ -108,7 +107,7 @@ function Signup() {
                 aria-describedby="basic-addon2"
                 type="text"
                 name="lastName"
-                value={lastName}
+                value={lastName || ''}
                 onChange={handleLastName}
               />
             </InputGroup>
@@ -117,6 +116,7 @@ function Signup() {
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon1">
+                  <i id="email-logo" className="fas fa-sun"></i> Email
                 </InputGroup.Text>
               </InputGroup.Prepend>
               <FormControl
@@ -125,7 +125,7 @@ function Signup() {
                 aria-describedby="basic-addon3"
                 type="text"
                 name="email"
-                value={email}
+                value={email || ''}
                 onChange={handleEmail}
               />
             </InputGroup>
@@ -134,6 +134,7 @@ function Signup() {
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon2">
+                  <i id="password-logo" className="fas fa-cloud-rain"></i> Password
                 </InputGroup.Text>
               </InputGroup.Prepend>
               <FormControl
@@ -142,7 +143,7 @@ function Signup() {
                 aria-describedby="basic-addon4"
                 type="password"
                 name="password"
-                value={password}
+                value={password || ''}
                 onChange={handlePassword}
               />
             </InputGroup>
@@ -151,7 +152,7 @@ function Signup() {
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon2">
-
+                  <i id="confirm-logo" className="fas fa-cloud"></i> Confirm
                 </InputGroup.Text>
               </InputGroup.Prepend>
               <FormControl
@@ -166,7 +167,7 @@ function Signup() {
 
           <Modal.Footer>
             <Button id="submit" variant="primary" onClick={handleSubmit}>
-
+              <i id="submit-logo" className="fas fa-tree"></i> Submit
             </Button>
           </Modal.Footer>
         </Modal>
