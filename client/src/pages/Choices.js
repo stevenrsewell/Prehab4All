@@ -3,15 +3,15 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import NavbarA from "../components/NavbarA/index";
+import NavbarC from "../components/NavbarC/index";
 
-function About() {
+function Choices() {
   return (
-    <div>
-    <NavbarA />
+    <div> 
+    <NavbarC />
     <div>
       <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
-        <h1>Prehab: See you in health!</h1>
+        <h1>Choices - Prehab: See you in health!</h1>
       </Hero>
       
       <Container style={{ marginTop: 55, marginRight: 100 }}>
@@ -22,4 +22,4 @@ function About() {
   );
 }
 
-export default About;
+export default Choices;

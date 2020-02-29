@@ -4,10 +4,9 @@ import React from "react";
 // import { BrowserRouter as Router} from "react-router-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from "./pages/About";
-// import Directory from "./pages/Directory";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
-import Navbar from "./components/Navbar";
+import Directory from "./pages/Directory";
+import Login from "./pages/Login"
+import Choices from "./pages/Choices"
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
@@ -16,23 +15,22 @@ import Wrapper from "./components/Wrapper";
 function App() {
 
   return (
-     <Router basename='/Prehab4All'>
+     <Router>
       <div>
-        <Navbar />
           <Wrapper>           
               <Route exact path="/" component={About} /> 
-              <Route exact path="/about" component={About} />
-              {/* <Route exact path="/directory" component={Directory} /> */}
-              <Route exact path="/signup" component={Signup} />
+              <Route exact path="/about" component={About} />   
               <Route exact path="/login" component={Login} />
+              <Route exact path="/choices" component={Choices} />
+              <Route exact path="/directory" component={Directory} />
               
           </Wrapper> 
         <Footer /> 
       </div>
     </Router>
-   
+    
+
   );
 }
 
 export default App;
-
