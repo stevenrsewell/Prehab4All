@@ -38,8 +38,8 @@ function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to="/directory"
-              className={window.location.pathname === "/directory" ? "nav-link active" : "nav-link"}
+              to="/client/src/pages/hip.js"
+              className={window.location.pathname === "/client/src/pages/hip.js" ? "nav-link active" : "nav-link"}
             >
               Shoulder
             </Link>
@@ -47,8 +47,8 @@ function Navbar(props) {
 
           <li className="nav-item">
             <Link
-              to="/search"
-              className={window.location.pathname === "/directory" ? "nav-link active" : "nav-link"}
+              to="/client/src/pages/shoulder.js"
+              className={window.location.pathname === "/client/src/pages/shoulder.js" ? "nav-link active" : "nav-link"}
             >
               Myofascial
             </Link>
