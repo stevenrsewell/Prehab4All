@@ -1,12 +1,14 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
-// import NavbarA from "../components/NavbarA/index";
+import Row from "../components/Row";
+import Col from "../components/Col";
+import NavbarC from "../components/NavbarC/index";
 
-function About() {
+function Choices() {
   return (
-  
-   
+    <div> 
+    <NavbarC />
     <div>
       <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
         <h1>Prehab: See you in health!</h1>
@@ -16,8 +18,8 @@ function About() {
         <h1>Watch Physiotherapy Videos by Medical Professionals</h1>     
       </Container>
     </div>
- 
+    </div>
   );
 }
 
-export default About;
+export default Choices;

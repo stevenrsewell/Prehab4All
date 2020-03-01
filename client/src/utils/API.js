@@ -25,4 +25,7 @@ getOneUser: id => {
     console.log(userObj);
     return axios.post(`/api/user`, userObj);
   },
+
+  
+  
 };

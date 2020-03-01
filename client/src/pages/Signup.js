@@ -6,7 +6,7 @@ import {
   InputGroup,
   FormControl
 } from "react-bootstrap";
-import API from "../../utils/API";
+import API from "../utils/API";
 
 function Signup() {
   const [firstName, setFirstName] = useState('');
@@ -65,20 +65,15 @@ function Signup() {
           <i id="sign-up-button-icon" className="fas fa-user-plus"></i>
           <p>Sign-Up</p>
         </Button>
-        {/* <Link to="/About">
-            <Button id="logout-modal-button" onClick={handle}>
-              <i id="logout-button-icon" className="fas fa-sign-out-alt"></i>
-              <p>Sign-up</p>
-            </Button>
-          </Link> */}
+
 
         <Modal show={show} onHide={handleClose}>
-        {/* <Modal.Header closeButton>
+        <Modal.Header closeButton>
             <Modal.Title id="modal-heading">
               <br/>
                 Sign-Up
               </Modal.Title>
-          </Modal.Header> */}
+          </Modal.Header>
 
 
             <Modal.Body id="login-modal-body">

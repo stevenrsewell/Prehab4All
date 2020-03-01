@@ -1,6 +1,6 @@
 const User = require("../models/User");
 
-
+// const passport = require("../config/passport");
 module.exports = function(app, passport) {
   app.post("/", (req, res) => {
     console.log("user signup");
@@ -42,15 +42,20 @@ module.exports = function(app, passport) {
         res.send(err);
       });
   });
+  app.put("/api/user/login", passport.authenticate("local-login"), function (req, res) {
+    res.json(req.user);
+  });
 
-  app.put(
-    "/api/user/login",
-    passport.authenticate("local-login"),
-    function(req, res) {
-      console.log("routes/user.js, login, req.body: ");
-      console.log(req.body);
-      res.send("test");
-    }
+//   app.put(
+//     "/api/user/login",
+//     passport.authenticate("local-login"),
+//     function(req, res) {
+//       console.log("routes/user.js, login, req.body: ");
+//       console.log(req.body);
+//       res.send("test");
+//     }
+//     );
+   
 
     // (req, res) => {
     //   console.log("logged in", req.user);
@@ -59,7 +64,7 @@ module.exports = function(app, passport) {
     //   };
     //   res.send(userInfo);
     // }
-  );
+
 
   app.get("/", (req, res, next) => {
     console.log("===== user!!======");
