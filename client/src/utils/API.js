@@ -26,6 +26,8 @@ getOneUser: id => {
     return axios.post(`/api/user`, userObj);
   },
 
-  
+  logout: user => {
+    return axios.get("/logout")
+  }
   
 };

@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
 import { Link } from "react-router-dom";
 import API from "../utils/API";
+// import Hero from "../components/Hero";
+// import Container from "../components/Container";
 
-
+let userId = localStorage.getItem("userID");
 
 function Login() {
  
@@ -48,13 +50,14 @@ function Login() {
         console.log(error);
       });
   };
-  let userId = localStorage.getItem("userID");
+  
+
+ 
 
   return (
     <MDBContainer>
       {/* Login */}
-   
-        
+      
          <MDBRow>
          <MDBCol md="6">
            <form>
@@ -72,11 +75,13 @@ function Login() {
            </form>
          </MDBCol>
        </MDBRow>
-       </MDBContainer>
-        )}
+    
         
-      
-  
+        
+        
 
+  </MDBContainer>
+  
+  )}
 
 export default Login;

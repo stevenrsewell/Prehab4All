@@ -44,14 +44,8 @@ function NavbarC() {
               Myofascial
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/About"
-              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-            >
-              Logout
-            </Link>
-          </li>
+          
+         
 
         </ul>
       </div>

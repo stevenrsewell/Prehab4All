@@ -3,10 +3,10 @@ import React from "react";
 // import { HashRouter, Route, Link } from "react-router-dom";
 // import { BrowserRouter as Router} from "react-router-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Hip from "./pages/Hip";
-import Shoulder from "./pages/Shoulder";
-import Myofascial from "./pages/Myofascial";
-import Cervical from "./pages/Cervical";
+import Hip from "./pages/hip";
+import Shoulder from "./pages/shoulder";
+import Myofascial from "./pages/myofascial";
+import Cervical from "./pages/cervical";
 import About from "./pages/About";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
@@ -23,14 +23,18 @@ function App() {
    
      <Router>
       <div>
-      <NavbarA/>
+       <NavbarA/> 
           <Wrapper>           
              
+            
+              
+              <Route exact path="/signup" component={Signup} />
+
               <Route exact path="/login" component={Login} />
-              <Route exact path="/login" component={Signup} />
+              <Route exact path="/logout" component={About} />
               <Route exact path="/" component={About} />
-              <Route exact path="/about" component={About} />
               <Route exact path="/choices" component={Choices} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/hip" component={Hip} />
               <Route exact path="/shoulder" component={Shoulder} />
               <Route exact path="/myofascial" component={Myofascial} />

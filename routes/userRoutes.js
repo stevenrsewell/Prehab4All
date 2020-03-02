@@ -43,45 +43,26 @@ module.exports = function(app, passport) {
       });
   });
   app.put("/api/user/login", passport.authenticate("local-login"), function (req, res) {
-    res.json(req.user);
+    res.json(req.user.email);
   });
 
-//   app.put(
-//     "/api/user/login",
-//     passport.authenticate("local-login"),
-//     function(req, res) {
-//       console.log("routes/user.js, login, req.body: ");
-//       console.log(req.body);
-//       res.send("test");
-//     }
-//     );
+
    
 
-    // (req, res) => {
-    //   console.log("logged in", req.user);
-    //   var userInfo = {
-    //     email: req.user.email
-    //   };
-    //   res.send(userInfo);
-    // }
 
 
-  app.get("/", (req, res, next) => {
-    console.log("===== user!!======");
-    console.log(req.user);
-    if (req.user) {
-      res.json({ user: req.user });
-    } else {
-      res.json({ user: null });
-    }
-  });
+//   app.get("/choices", (req, res, next) => {
+//     console.log("===== user!!======");
+//     console.log(req.user);
+//     if (req.user) {
+//       res.json({ user: req.user });
+//     } else {
+//       res.json({ user: null });
+//     }
+//   });
 
-  app.post("/logout", (req, res) => {
-    if (req.user) {
-      req.logout();
-      res.send({ msg: "logging out" });
-    } else {
-      res.send({ msg: "no user to log out" });
-    }
+app.get("/logout", function (req, res) {
+    req.logout();
+    res.redirect("/");
   });
 };

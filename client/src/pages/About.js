@@ -1,11 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
-// import NavbarA from "../components/NavbarA/index";
+import NavbarA from "../components/NavbarA/index";
 
 function About() {
   return (
-  
+    <div>
    
     <div>
       <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
@@ -16,7 +16,7 @@ function About() {
         <h1>Watch Physiotherapy Videos by Medical Professionals</h1>     
       </Container>
     </div>
- 
+    </div>
   );
 }
 
