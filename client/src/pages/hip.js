@@ -2,6 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
+import InstagramEmbed from 'react-instagram-embed';
 
 function Hip() {
   return (
@@ -16,7 +17,19 @@ function Hip() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/BpDhNwEAiGh'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 </p>
               </div>
               <div className="col-lg-6">
@@ -56,7 +69,19 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Bz9ZgrRFKxV/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/Bz9ZgrRFKxV'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/Bz9ZgrRFKxV/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 </p>
               </div>
               <div className="col-lg-6">
@@ -96,10 +121,21 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Bz_Gwm6jX3V/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/Bz_Gwm6jX3V'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/Bz_Gwm6jX3V/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                   </p>
               </div>
               <div className="col-lg-6">
@@ -141,7 +177,19 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BzqK8Alj0aN/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/BzqK8Alj0aN'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/BzqK8Alj0aN/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                   </p>
               </div>
               <div className="col-lg-6">
