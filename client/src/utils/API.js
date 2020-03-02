@@ -29,5 +29,7 @@ getOneUser: id => {
   logout: user => {
     return axios.get("/logout")
   }
+
+  
   
 };

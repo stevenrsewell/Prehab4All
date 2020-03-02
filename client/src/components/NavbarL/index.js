@@ -12,24 +12,7 @@ function NavbarL() {
           <Link className="navbar-brand" to="/">
             Prehab
           </Link>
-          <div>
-            <ul className="navbar-nav">
-          
-              <li className="nav-item">
-                <Link
-                  to="/Choices"
-                  className={
-                    window.location.pathname === "/" || window.location.pathname === "/choices"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  Choices
-                </Link>
-              </li>
-                    
-            </ul>
-          </div>
+         
         </nav>
       );
     
