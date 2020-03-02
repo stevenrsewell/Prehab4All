@@ -4,7 +4,17 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import "./style.css";
+import API from "../../utils/API"
 
+
+function handleLogOut() {
+  API.logout().then(function() {
+    console.log("logged out")
+    
+  })
+  localStorage.clear();
+  window.location.replace("/");
+}
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavbarC() {
   return (
@@ -87,20 +97,11 @@ function NavbarC() {
           <Col></Col>
           <Col></Col>
           <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
+         
  
           <Col>
-            <li className="nav-item">
-              <Link
-                to="/about"
-                className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-              >
-                Logout
-              </Link>
+          <li className="nav-item">
+              <button onClick={handleLogOut}>LogOut</button>
             </li>
           </Col>
         </ul>

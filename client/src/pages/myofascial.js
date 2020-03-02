@@ -226,5 +226,4 @@ function Myofascial() {
   );
 }
 
-
 export default Myofascial;
