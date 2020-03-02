@@ -10,7 +10,6 @@ import Myofascial from "./pages/Myofascial";
 import Cervical from "./pages/Cervical";
 import Login from "./pages/Login"
 import Choices from "./pages/Choices"
-import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 
