@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-
-client/build
-client/node_modules
-client/node_modules
-=======
 .DS_Store
 node_modules
->>>>>>> ae1e25fbe6d451a0402bf1638cfca3fa595c15ac
