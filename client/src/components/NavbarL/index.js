@@ -17,7 +17,7 @@ function NavbarL() {
           
               <li className="nav-item">
                 <Link
-                  to="/choices"
+                  to="/Choices"
                   className={
                     window.location.pathname === "/" || window.location.pathname === "/choices"
                       ? "nav-link active"

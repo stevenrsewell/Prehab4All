@@ -6,7 +6,7 @@ import {
   InputGroup,
   FormControl
 } from "react-bootstrap";
-import API from "../../utils/API";
+import API from "../utils/API";
 
 function Signup() {
   const [firstName, setFirstName] = useState('');

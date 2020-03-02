@@ -72,6 +72,14 @@ function NavbarA() {
                 Login
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/Signup"
+                className={window.location.pathname === "/lsignup" ? "nav-link active" : "nav-link"}
+              >
+               Signup
+              </Link>
+            </li>
           </Col>
         </ul>
       </div>
