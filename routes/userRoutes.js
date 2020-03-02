@@ -44,6 +44,7 @@ module.exports = function(app, passport) {
   });
   app.put("/api/user/login", passport.authenticate("local-login"), function (req, res) {
     res.json(req.user.email);
+  
   });
 
 
@@ -66,3 +67,4 @@ app.get("/logout", function (req, res) {
     res.redirect("/");
   });
 };
+
