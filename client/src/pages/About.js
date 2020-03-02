@@ -11,12 +11,16 @@ function About() {
     <NavbarA />
     <div>
       <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
-        <h1>Prehab: See you in health!</h1>
+      <br></br>
+      <br></br>
+      <br></br>
+        <h1>Prehab: See you in health!</h1>      
+        <h2>Watch Physiotherapy Videos by Medical Professionals</h2> 
       </Hero>
       
-      <Container style={{ marginTop: 55, marginRight: 100 }}>
+      {/* <Container style={{ marginTop: 55, marginRight: 100 }}>
         <h1>Watch Physiotherapy Videos by Medical Professionals</h1>     
-      </Container>
+      </Container> */}
     </div>
     </div>
   );

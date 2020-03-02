@@ -14,18 +14,7 @@ function NavbarL() {
           </Link>
           <div>
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link
-                  to="/"
-                  className={
-                    window.location.pathname === "/" || window.location.pathname === "/about"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  About
-                </Link>
-              </li>
+          
               <li className="nav-item">
                 <Link
                   to="/choices"

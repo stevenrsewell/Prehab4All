@@ -9,15 +9,12 @@ function Choices() {
   return (
     <div> 
     <NavbarC />
-    <div>
-      <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
-        <h1>Choices - Prehab: See you in health!</h1>
-      </Hero>
-      
-      <Container style={{ marginTop: 55, marginRight: 100 }}>
-        <h1>Watch Physiotherapy Videos by Medical Professionals</h1>     
-      </Container>
-    </div>
+      <div>
+        <Hero backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
+        <h1>Prehab: See you in health!</h1>      
+          <h2>Physiotherapy Videos - Hip, Shoulder, Cervical and Myofascial</h2> 
+        </Hero>
+      </div>
     </div>
   );
 }

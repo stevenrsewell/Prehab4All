@@ -6,7 +6,7 @@ import API from "../../utils/API";
 
 let userId = localStorage.getItem("userID");
 
-function Login() {
+function LoginUser() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -91,4 +91,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginUser;
