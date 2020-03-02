@@ -73,7 +73,7 @@ function Shoulder() {
                 <br></br>
                 <br></br>
                 <InstagramEmbed
-                  url='https://www.instagram.com/p/BrpujmWl5iW/embed/captioned'
+                  url='https://www.instagram.com/tv/BrpujmWl5iW/embed/captioned'
                   maxWidth={320}
                   hideCaption={true}
                   containerTagName='div'

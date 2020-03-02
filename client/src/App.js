@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Hip from "./pages/Hip";
 import Shoulder from "./pages/Shoulder";
 import Myofascial from "./pages/Myofascial";
-import Cervical from "./pages/Cervical";
+import Cervical from "../src/pages/cervical";
 import Login from "./pages/Login"
 import Choices from "./pages/Choices"
 import Wrapper from "./components/Wrapper";
