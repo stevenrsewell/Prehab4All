@@ -43,7 +43,7 @@ function NavbarA() {
               <li className="nav-item">
                 <Link
                   to="/Login"
-                  className={window.location.pathname === "/login" ? "nav-link active" : "nav-link"}
+                  className={window.location.pathname === "/Login" ? "nav-link active" : "nav-link"}
                 >
                   Login
             </Link>
