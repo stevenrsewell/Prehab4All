@@ -1,4 +1,5 @@
 .footer {
+<<<<<<< HEAD
   min-height: 70px;
   background: #E5E5E5;
   position: relative;
@@ -12,3 +13,10 @@
   padding: 3px;
   background: #B8B8B8;
 }
+=======
+  background: #E5E5E5;
+  position: relative;
+  text-align: center;
+}
+
+>>>>>>> prehab

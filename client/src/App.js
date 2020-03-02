@@ -11,7 +11,6 @@ import cervical from "./pages/cervical";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Choices from "./pages/Choices"
-import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 

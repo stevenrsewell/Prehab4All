@@ -32,18 +32,7 @@ function NavbarL() {
           </div>
         </nav>
       );
-    // // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    //     {/* <Navbar.Brand href="#home">
-    //         <img
-    //         alt=""
-    //         src= "http://spineability.com/images/578ab961d280e.png"
-          
-    //         width="30"
-    //         height="30"
-    //         className="d-inline-block align-top"
-    //       />{' '}
-    //       React Bootstrap
-    //     </Navbar.Brand> */}
+    
   
 }
 
