@@ -30,13 +30,11 @@ function Cervical() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <br></br>
@@ -55,7 +53,6 @@ function Cervical() {
               <div className="row" font="bold">
                 <p><a href="https://drcalebburgess.com/">Dr. Burguess Website</a></p>
               </div>
-
             </div>
           </div>
 
@@ -65,8 +62,6 @@ function Cervical() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/ByShUDZpKRe'
                   maxWidth={400}
@@ -79,14 +74,11 @@ function Cervical() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/ByShUDZpKRe/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
-
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Samuel Spinelli, DPT, CSCS</h4>
@@ -103,7 +95,6 @@ function Cervical() {
               </div>
               <div className="row" font="bold">
                 <p><a href="https://www.instagram.com/e3rehab/">E3Rehab Instagram</a></p>
-
               </div>
             </div>
           </div>
@@ -114,8 +105,6 @@ function Cervical() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/ByiRqe9BlqW'
                   maxWidth={400}
@@ -128,14 +117,11 @@ function Cervical() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/ByiRqe9BlqW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
-
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Adam McCluskey, PT, DPT</h4>
@@ -152,7 +138,6 @@ function Cervical() {
               </div>
               <div className="row" font="bold">
                 <p><a href="https://www.youtube.com/channel/UCG5NQx7QqG8q2alfkjuP5Nw">The PT Initiative Youtube</a></p>
-
               </div>
             </div>
           </div>
@@ -163,8 +148,6 @@ function Cervical() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/B8ti583gwuZ'
                   maxWidth={400}
@@ -177,13 +160,11 @@ function Cervical() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/B8ti583gwuZ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Performance Sport and Spine Chiropractic Clinic</h4>

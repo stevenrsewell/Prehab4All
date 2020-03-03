@@ -1,11 +1,7 @@
-
 const db = require("../models");
 const axios = require("axios");
 
-
 module.exports = function(app) {
-
-
 
     app.get("/api/user", (req, res) => {
         db.User.find({})

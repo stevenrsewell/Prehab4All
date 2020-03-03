@@ -18,7 +18,6 @@ function Myofascial() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Bza1B_MgwWJ'
                   maxWidth={400}
@@ -33,11 +32,9 @@ function Myofascial() {
                 />
                 {/* <iframe src="https://www.instagram.com/tv/Bza1B_MgwWJ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <br></br>
@@ -65,8 +62,6 @@ function Myofascial() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Br0D99DgkF0'
                   maxWidth={400}
@@ -81,13 +76,10 @@ function Myofascial() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/Br0D99DgkF0/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-
             </div>
           </div>
 
@@ -97,8 +89,6 @@ function Myofascial() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BrSjGBwgrc4'
                   maxWidth={400}
@@ -113,13 +103,10 @@ function Myofascial() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/BrSjGBwgrc4/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-
             </div>
           </div>
 
@@ -129,8 +116,6 @@ function Myofascial() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BjbDgN8Fapv'
                   maxWidth={400}
@@ -145,11 +130,9 @@ function Myofascial() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/BjbDgN8Fapv/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Jacob Harden</h4>

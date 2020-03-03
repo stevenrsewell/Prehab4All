@@ -18,7 +18,6 @@ function Hip() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BpDhNwEAiGh'
                   maxWidth={400}
@@ -32,9 +31,7 @@ function Hip() {
                   onFailure={() => { }}
                 />
                 {/* <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
-
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
@@ -65,8 +62,6 @@ function Hip() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Bz9ZgrRFKxV'
                   maxWidth={400}
@@ -81,13 +76,10 @@ function Hip() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/Bz9ZgrRFKxV/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
-
               </p>
             </div>
 
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Katie Clare</h4>
@@ -111,8 +103,6 @@ function Hip() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Bz_Gwm6jX3V'
                   maxWidth={400}
@@ -127,13 +117,10 @@ function Hip() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/Bz_Gwm6jX3V/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-
               <div className="row" font="bold">
                 <h4>Dr. Kip Thorstenson, DPT, CSCS</h4>
               </div>
@@ -156,8 +143,6 @@ function Hip() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BzqK8Alj0aN'
                   maxWidth={400}
@@ -172,11 +157,9 @@ function Hip() {
                 />
                 {/* <iframe src="https://www.instagram.com/p/BzqK8Alj0aN/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>The Prehab Guys</h4>
@@ -207,7 +190,7 @@ function Hip() {
               </div>
               <div className="row" font="bold">
                 <br></br>
-                <hr></hr>
+
               </div>
             </div>
           </div>

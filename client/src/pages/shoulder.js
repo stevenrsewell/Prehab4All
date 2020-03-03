@@ -18,7 +18,6 @@ function Shoulder() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/B2mC2C2DPiM'
                   maxWidth={400}
@@ -31,14 +30,11 @@ function Shoulder() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/B2mC2C2DPiM/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <br></br>
@@ -66,8 +62,6 @@ function Shoulder() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/BrpujmWl5iW'
                   maxWidth={400}
@@ -80,14 +74,11 @@ function Shoulder() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Nick Helton, PT, DPT, OCS</h4>
@@ -104,7 +95,6 @@ function Shoulder() {
               </div>
               <div className="row" font="bold">
                 <p><a href="https://drnickhelton.com/">Dr. Helton's Website</a></p>
-
               </div>
             </div>
           </div>
@@ -115,8 +105,6 @@ function Shoulder() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/B3kANWyAi5I'
                   maxWidth={400}
@@ -129,14 +117,11 @@ function Shoulder() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/tv/B3kANWyAi5I/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
-
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>Joe Yoon</h4>
@@ -163,8 +148,6 @@ function Shoulder() {
             <div className="col-lg-6">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/B33bfcZi3Lc'
                   maxWidth={400}
@@ -177,13 +160,11 @@ function Shoulder() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
                 {/* <iframe src="https://www.instagram.com/tv/B33bfcZi3Lc/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
-              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>The Prehab Guys</h4>
