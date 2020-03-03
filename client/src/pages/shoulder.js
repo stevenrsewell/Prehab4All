@@ -54,7 +54,7 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -97,7 +97,7 @@ function Shoulder() {
                   
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/tv/B3kANWyAi5I/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/tv/B3kANWyAi5I/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -138,7 +138,7 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/tv/B33bfcZi3Lc/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/tv/B33bfcZi3Lc/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                   </p>
               </div>
               <div className="col-lg-6">

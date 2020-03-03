@@ -17,7 +17,7 @@ function Myofascial() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/tv/Bza1B_MgwWJ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/tv/Bza1B_MgwWJ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -54,7 +54,7 @@ function Myofascial() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Br0D99DgkF0/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/Br0D99DgkF0/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -97,7 +97,7 @@ function Myofascial() {
                   
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BrSjGBwgrc4/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/BrSjGBwgrc4/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -139,7 +139,7 @@ function Myofascial() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BjbDgN8Fapv/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/BjbDgN8Fapv/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                   </p>
               </div>
               <div className="col-lg-6">
