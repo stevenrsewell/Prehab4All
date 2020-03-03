@@ -2,6 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
+import InstagramEmbed from "react-instagram-embed";
 import Button from "react-bootstrap/Button";
 
 function Myofascial() {
@@ -17,8 +18,22 @@ function Myofascial() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/tv/Bza1B_MgwWJ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button type="submit">Favorite</Button>
+
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/Bza1B_MgwWJ'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/tv/Bza1B_MgwWJ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
+               <Button type="submit">Favorite</Button>
+
                 </p>
               </div>
               <div className="col-lg-6">
@@ -55,8 +70,22 @@ function Myofascial() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Br0D99DgkF0/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button type="submit">Favorite</Button>
+
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/Br0D99DgkF0'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/Br0D99DgkF0/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
+              <Button type="submit">Favorite</Button>
+
                 </p>
               </div>
               <div className="col-lg-6">
@@ -96,11 +125,24 @@ function Myofascial() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BrSjGBwgrc4/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button type="submit">Favorite</Button>
+
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/BrSjGBwgrc4'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/BrSjGBwgrc4/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
+          <Button type="submit">Favorite</Button>
+
                   </p>
               </div>
               <div className="col-lg-6">
@@ -142,8 +184,22 @@ function Myofascial() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BjbDgN8Fapv/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button type="submit">Favorite</Button>
+
+                  <InstagramEmbed
+                  url='https://www.instagram.com/tv/BjbDgN8Fapv'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  {/* <iframe src="https://www.instagram.com/p/BjbDgN8Fapv/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
+            <Button type="submit">Favorite</Button>
+
                   </p>
               </div>
               <div className="col-lg-6">

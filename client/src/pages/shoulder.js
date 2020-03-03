@@ -47,6 +47,29 @@ function Shoulder() {
 
 
 
+
+          <div className="row">
+            <div className="col-lg-6">
+              <p>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <InstagramEmbed
+                  url='https://www.instagram.com/tv/BrpujmWl5iW/embed/captioned'
+                  maxWidth={320}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                {/* <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
+
             <div className="row"> 
               <div className="col-lg-6">
                 <p>
@@ -55,8 +78,10 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <br></br>
+
                   <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                   <Button type="submit">Favorite</Button>
+
                 </p>
               </div>
               <div className="col-lg-6">
