@@ -11,7 +11,7 @@ import cervical from "./pages/cervical";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Choices from "./pages/Choices"
-import Footer from "./components/Footer";
+import Myvideos from "./pages/Myvideos"
 import Wrapper from "./components/Wrapper";
 
 
@@ -32,6 +32,7 @@ function App() {
               <Route exact path="/shoulder" component={shoulder} />
               <Route exact path="/myofascial" component={myofascial} />
               <Route exact path="/cervical" component={cervical} />
+              <Route exact path="/myvideos" component={Myvideos} />
               
           </Wrapper> 
         {/* <Footer />  */}

@@ -2,6 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
+import Button from "react-bootstrap/Button";
 
 function Hip() {
   return (
@@ -16,7 +17,8 @@ function Hip() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -25,23 +27,20 @@ function Hip() {
                   <br></br>
                   <div className="row" font="bold">
                   <br></br>
-                    <h4>Dr. CCCCCCCCC</h4> 
+                    <h4>Dr. Jacob Harden</h4> 
                   </div>
                   <div className="row" font="bold">
-                    <h5>Doctor of Physical Therapy</h5> 
+                    <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Harden on Instagram</a></h5> 
                   </div>
                   <div className="row" font="bold">
                     <br></br>
-                    <p>Dr. Caleb Burgess. I’m a licensed Doctor of Physical Therapy, a certified specialist in Orthopedic Physical Therapy through the American Board of Physical Therapy Specialties, and a Certified Strength and Conditioning Specialist through the National Strength and Conditioning Association.</p> 
+                    <p>Director of Rehabilitation at Orlando Sports Rehab</p> 
                   </div>
                   <div className="row" font="bold">
-                    <p>In 2014, I received my Doctorate in Physical Therapy (DPT) from Azusa Pacific University. The next two years I completed a Residency in Orthopedic Physical Therapy and then a Fellowship in Sports and Orthopedic Physical Therapy through Kaiser Permanente Southern California. This advanced training allowed me to become an expert in musculoskeletal conditions both related to the general and athletic populations.</p> 
+                    <p>Doctor Jacob Harden is a chiropractor currently practicing in Florida who creates prehabilitation and rehab content on social media.</p> 
                   </div>
                   <div className="row" font="bold">
-                    <p>He specialized in helping athletes and people of all ages reach peak performance, while helping to bulletproof their bodies to stay injury free in the process. His goal is to help you understand how your body works and to identify and overcome any obstacles that stand in the way of achieving your goals.</p> 
-                  </div>
-                  <div className="row" font="bold">
-                    <p>Website: linktr.ee/dr.caleb.burgess</p> 
+                    <p><a href="https://www.youtube.com/channel/UCvaTM4jXDACmZMFUYDNGeDw">Dr. Harden's Youtube Channel</a></p> 
                   </div>
               </div>
             </div>
@@ -56,7 +55,8 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Bz9ZgrRFKxV/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/Bz9ZgrRFKxV/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -68,21 +68,17 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <div className="row" font="bold">
-                    <h4>Dr. SSSSSSSSSS</h4> 
+                    <h4>Dr. Katie Clare</h4> 
                   </div>
                   <div className="row" font="bold">
-                    <h5>Doctor of Physical Therapy</h5> 
+                    <h5><a href="https://www.instagram.com/drkatie_clare/">Dr. Clare on Instagram</a></h5> 
                   </div>
                   <div className="row" font="bold">
                     <br></br>
-                    <p>Dr. Samspinelli is a doctor of physical therapy and a strength and conditioning coach with experience working with professional and olympic sport athletes ranging from football, hockey, bobsleigh, powerlifting, weightlifting, to ballet. </p> 
+                    <p>Dr. Katie Clare is the owner of Dauntless Sport and Spine Clinic based in Edina, MN. She is a Doctor of Chiropractic medicine that completed post-doctoral work in sports medicine earning a Chiropractic Sports Practitioner certification. On her instagram account she provides tips/info to #fixyourself in videos with simplified (p)rehab breakdowns.</p> 
                   </div>
                   <div className="row" font="bold">
-                    <p>Phone: 250-808-0110</p> 
-                  </div>
-                  <div className="row" font="bold">
-                    <p>Email: TheStrengthTherapist@Gmail.com</p> 
-                    
+                    <p><a href="https://drkatieclare.com/">Dr. Clare's Website</a></p> 
                   </div>
               </div>
             </div>
@@ -99,7 +95,8 @@ function Hip() {
                   
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/Bz_Gwm6jX3V/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/Bz_Gwm6jX3V/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -111,21 +108,17 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <div className="row" font="bold">
-                    <h4>Dr. HHHHHHHHHH</h4> 
+                    <h4>Dr. Kip Thorstenson, DPT, CSCS</h4> 
                   </div>
                   <div className="row" font="bold">
-                    <h5>Doctor of Physical Therapy</h5> 
+                    <h5><a href="https://www.instagram.com/teachbyexample/">Teach By Example Instagram</a></h5> 
                   </div>
                   <div className="row" font="bold">
                     <br></br>
-                    <p>Dr. Caleb Burgess. I’m a licensed Doctor of Physical Therapy, a certified specialist in Orthopedic Physical Therapy through the American Board of Physical Therapy Specialties, and a Certified Strength and Conditioning Specialist through the National Strength and Conditioning Association.</p> 
+                    <p>Doctor Kip Thorstenson studied at the University of North Dakota and completed a residency at Sanford Physical Therapy Orthopedic Residency. He is currently practicing in the state of Minnesota.</p> 
                   </div>
                   <div className="row" font="bold">
-                    <p>In 2014, I received my Doctorate in Physical Therapy (DPT) from Azusa Pacific University. The next two years I completed a Residency in Orthopedic Physical Therapy and then a Fellowship in Sports and Orthopedic Physical Therapy through Kaiser Permanente Southern California. This advanced training allowed me to become an expert in musculoskeletal conditions both related to the general and athletic populations.</p> 
-                  </div>
-                  <div className="row" font="bold">
-                    <p>He specialized in helping athletes and active people of all ages reach peak performance in their sport or activity of choice while helping to bulletproof their bodies to stay injury free in the process. His goal is to help you understand how your body works and what you can do to reduce pain, improve mobility, overcome weakness, recover from nagging or new injuries, and to identify and overcome any obstacles that stand in the way of achieving your goals.</p> 
-                  
+                    <p><a href="https://www.linkedin.com/in/kip-thorstenson-b301b3a1/">Dr. Thorstenson on LinkedIn</a></p> 
                   </div>
               </div>
             </div>
@@ -141,7 +134,8 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/BzqK8Alj0aN/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/BzqK8Alj0aN/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -153,22 +147,35 @@ function Hip() {
                   <br></br>
                   <br></br>
                   <div className="row" font="bold">
-                    <h4>Dr. XXXXX</h4> 
+                    <h4>The Prehab Guys</h4> 
                   </div>
                   <div className="row" font="bold">
-                    <h5>Doctor of Physical Therapy</h5> 
+                    <h5><a href="https://www.instagram.com/theprehabguys">The Prehab Guys on Instagram</a></h5> 
+                  </div>
+                  <div className="row" font="bold">
+                    <h5>Arash Maghsoodi, PT, DPT, CSCS</h5> 
                   </div>
                   <div className="row" font="bold">
                     <br></br>
-                    <p>Dr. Caleb Burgess. I’m a licensed Doctor of Physical Therapy, a certified specialist in Orthopedic Physical Therapy through the American Board of Physical Therapy Specialties, and a Certified Strength and Conditioning Specialist through the National Strength and Conditioning Association.</p> 
+                    <p>Arash recieved his Bachelor of Science degree in Kinesiology from San Diego State University. He has had clinical clerkships primarily in the orthopedic and sports setting including: Glendale Adventist Medical Center (TWC), California Rehab and Sports Therapy, Lavayen PT, and USC PT Associates.</p> 
                   </div>
                   <div className="row" font="bold">
-                    <p>In 2014, I received my Doctorate in Physical Therapy (DPT) from Azusa Pacific University. The next two years I completed a Residency in Orthopedic Physical Therapy and then a Fellowship in Sports and Orthopedic Physical Therapy through Kaiser Permanente Southern California. This advanced training allowed me to become an expert in musculoskeletal conditions both related to the general and athletic populations.</p> 
+                    <h5>Michael Lau, PT, DPT, CSCS</h5> 
                   </div>
                   <div className="row" font="bold">
-                    <p>He specialized in helping athletes and active people of all ages reach peak performance in their sport or activity of choice while helping to bulletproof their bodies to stay injury free in the process. His goal is to help you understand how your body works and what you can do to reduce pain, improve mobility, overcome weakness, recover from nagging or new injuries, and to identify and overcome any obstacles that stand in the way of achieving your goals.</p> 
-                  
+                    <br></br>
+                    <p>Michael is a licensed physical therapist and certified strength and conditioning specialist. He received his Doctorate in Physical Therapy from the University of Southern California and his bachelor’s of science degree in physiology from the University of California, Los Angeles. </p> 
                   </div>
+                  <div className="row" font="bold">
+                    <h5>Craig Lindell, PT, DPT, CSCS</h5> 
+                  </div>
+                  <div className="row" font="bold">
+                    <br></br>
+                    <p>Craig Lindell received his Bachelor of Science degree in kinesiology from the Pennsylvania State University and recieved his Doctor of Physical Therapy Degree at the University of Southern California. Craig has experience with movement disorders and stroke rehabilitation, and is a Parkinson’s Wellness Recovery (PWR!) certified therapist. Craig has a special interest in golf, crossfit, and neurologic rehabilitation.</p> 
+                  </div>
+                  <div className="row" font="bold">
+                    <br></br>
+              </div>
               </div>
             </div>
         </Container>
