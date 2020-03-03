@@ -17,7 +17,7 @@ function Shoulder() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/B2mC2C2DPiM/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/B2mC2C2DPiM/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
                 </p>
               </div>
               <div className="col-lg-6">
