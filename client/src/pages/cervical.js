@@ -137,11 +137,6 @@ function Cervical() {
             <div className="col-lg-6">
               <br></br>
               <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
               <div className="row" font="bold">
                 <h4>Dr. Adam McCluskey, PT, DPT</h4>
               </div>
