@@ -97,18 +97,11 @@ function NavbarC() {
           <Col></Col>
           <Col></Col>
           <Col></Col>
+          {/* <Col></Col>
           <Col></Col>
           <Col></Col>
           <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col> 
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-         
+          <Col></Col> */}
  
           <Col>
           <li className="nav-item">
