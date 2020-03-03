@@ -26,5 +26,28 @@ module.exports = function(app) {
             res.send(err);
           });
       });
+
+
+
+      app.put("/api/users/:id", (req, res) => {
+        console.log(req.body);
+    
+        db.User.findOneAndUpdate(
+          { _id: req.params.id },
+          {
+            $push: {
+              favoritevideos: req.body
+            },
+          },
+          { new: true })
+          .then(dbUser => {
+            res.json(dbUser);
+            console.log(dbUser)
+          }).catch(err => {
+            res.json(err);
+          });
+      });
+    
+    
    
 };

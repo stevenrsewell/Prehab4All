@@ -2,7 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
-
+import Button from "react-bootstrap/Button";
 function Cervical() {
   return (
     <div>
@@ -16,7 +16,8 @@ function Cervical() {
               <div className="col-lg-6">
                 <p>
                   <br></br>
-                  <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                  <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button type="submit">save</Button>
                 </p>
               </div>
               <div className="col-lg-6">

@@ -28,8 +28,11 @@ getOneUser: id => {
 
   logout: user => {
     return axios.get("/logout")
-  }
-
+  },
+  getFavorite: (userId, favoriteObj) => {
+    return axios.put(`/api/user/${userId}`, favoriteObj);
+  },
+  
   
   
 };

@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const bcrypt = require("bcryptjs");
 mongoose.promise = Promise;
-
+// const FavoriteSchema = require ("./Favorite");
 const UserSchema = new Schema({
 
   firstName: {
@@ -25,13 +25,15 @@ email: {
     required: true,
     minlength: [6, "Password must be at least 6 characters."]
   },
- favoritevideos: [
+  getFavorite: [
     {
       type: Schema.Types.ObjectId,
-      ref: "favorite"
+      ref: "Favorite"
     }
   ]
-});
+  });
+ 
+
 
 // Define schema methods
 UserSchema.methods = {

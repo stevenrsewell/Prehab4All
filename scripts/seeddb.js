@@ -19,6 +19,8 @@ const userSeed = [
 ];
 
 
+
+
 db.User
   .remove({})
   .then(() => db.User.collection.insertMany(userSeed))
@@ -30,4 +32,24 @@ db.User
     console.error(err);
     process.exit(1);
   });
+  const favoriteSeed = [
+    {
+      media_id:"2249519902884807888_4083141995"
+    
+    }
+  ];
+
+  db.Favorite
+  .remove({})
+  .then(() => db.Favorite.collection.insertMany(favoriteSeed))
+  .then(data => {
+    console.log(data.result.n + " records inserted!");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+  
+
 
