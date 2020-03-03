@@ -5,7 +5,6 @@ import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
 
-
 function Shoulder() {
   return (
     <div>
