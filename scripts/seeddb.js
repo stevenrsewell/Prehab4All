@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-// This file empties the Books collection and inserts the books below
 
 mongoose.connect(
   process.env.MONGODB_URI ||
@@ -32,9 +31,11 @@ db.User
     console.error(err);
     process.exit(1);
   });
+  
+  
   const favoriteSeed = [
     {
-      media_id:"2249519902884807888_4083141995"
+      media_id:"2058854493237584990_3104565825"
     
     }
   ];

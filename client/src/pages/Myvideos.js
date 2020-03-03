@@ -17,7 +17,7 @@ function Myvideos() {
                   <br></br>
                   {/* This list will have the list of links extracted from the DB for this user */}
                   {/* <List myvideosArray={myvideosArray} />; */}
-                  <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+                 
                 </p>
               </div>
             </div>      

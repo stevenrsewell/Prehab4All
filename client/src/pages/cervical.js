@@ -3,6 +3,19 @@ import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import Button from "react-bootstrap/Button";
+import API from "../utils/API"
+
+function handleSubmit() {
+  API.getFavorite().then(function() {
+    console.log("saved")
+    
+  })
+  
+  window.location.replace("/Myvideos");
+}
+
+
+
 function Cervical() {
   return (
     <div>
@@ -17,7 +30,7 @@ function Cervical() {
                 <p>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button variant="dark" type="submit">Favorite</Button>
+                  <Button variant="dark" type="submit"  onClick={handleSubmit}>Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -56,7 +69,7 @@ function Cervical() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/ByShUDZpKRe/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
-                  <Button variant="dark" type="submit">Favorite</Button>
+                  <Button variant="dark" type="submit"  onClick={handleSubmit}>Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
