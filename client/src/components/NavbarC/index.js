@@ -72,6 +72,17 @@ function NavbarC() {
             </li>
           </Col>
 
+          <Col>
+            <li className="nav-item">
+              <Link
+                to="/myvideos"
+                className={window.location.pathname === "/myvideos" ? "nav-link active" : "nav-link"}
+              >
+                Favorites
+                  </Link>
+            </li>
+          </Col>
+
           
           <Col></Col>
           <Col></Col>
