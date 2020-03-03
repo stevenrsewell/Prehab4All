@@ -2,6 +2,8 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
+import InstagramEmbed from 'react-instagram-embed';
+
 function Myvideos() {
   return (
     <div>
@@ -17,7 +19,21 @@ function Myvideos() {
                   <br></br>
                   {/* This list will have the list of links extracted from the DB for this user */}
                   {/* <List myvideosArray={myvideosArray} />; */}
-                  <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>;
+
+                  <InstagramEmbed
+                  url='https://www.instagram.com/p/B835m7mnsTQ'
+                  maxWidth={400}
+                  hideCaption={true}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                />
+                  
+                  {/* <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
                 </p>
               </div>
             </div>      
