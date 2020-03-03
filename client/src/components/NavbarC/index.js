@@ -23,7 +23,7 @@ function NavbarC() {
         <ul className="navbar-nav">
         
           <Col>
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/Choices">
               Prehab
                 </Link>
           </Col>
