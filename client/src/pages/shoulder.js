@@ -83,7 +83,7 @@ function Shoulder() {
                 />
 
                 {/* <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
-<Button variant="dark" type="submit">Favorite</Button>
+                <Button variant="dark" type="submit">Favorite</Button>
 
               </p>
             </div>
