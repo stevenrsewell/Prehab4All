@@ -2,6 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
+import Button from "react-bootstrap/Button";
 
 function Cervical() {
   return (
@@ -17,6 +18,7 @@ function Cervical() {
                 <p>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -55,6 +57,7 @@ function Cervical() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/ByShUDZpKRe/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -98,6 +101,7 @@ function Cervical() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/ByiRqe9BlqW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -140,6 +144,7 @@ function Cervical() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/B8ti583gwuZ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button variant="dark" type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">

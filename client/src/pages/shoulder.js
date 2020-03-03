@@ -2,7 +2,7 @@ import React from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
-
+import Button from "react-bootstrap/Button";
 
 function Shoulder() {
   return (
@@ -18,6 +18,7 @@ function Shoulder() {
                 <p>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/B2mC2C2DPiM/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button type="submit">Favorite</Button> 
                 </p>
               </div>
               <div className="col-lg-6">
@@ -55,6 +56,7 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button type="submit">Favorite</Button>
                 </p>
               </div>
               <div className="col-lg-6">
@@ -98,6 +100,7 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/tv/B3kANWyAi5I/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">
@@ -139,6 +142,7 @@ function Shoulder() {
                   <br></br>
                   <br></br>
                   <iframe src="https://www.instagram.com/tv/B33bfcZi3Lc/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+                  <Button type="submit">Favorite</Button>
                   </p>
               </div>
               <div className="col-lg-6">
