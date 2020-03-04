@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/user");
 const LocalStrategy = require("passport-local").Strategy;
 // Use Passport.js for local authentication.
 
