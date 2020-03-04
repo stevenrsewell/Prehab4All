@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/user");
 
 // const passport = require("../config/passport");
 module.exports = function(app, passport) {
@@ -47,17 +47,11 @@ module.exports = function(app, passport) {
   
   });
 
-
-  
-
-
       app.get("/logout", function (req, res) {
         req.logout();
         res.redirect("/");
       });
   }
-
-
 
 //   app.get("/choices", (req, res, next) => {
 //     console.log("===== user!!======");
