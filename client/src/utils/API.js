@@ -3,7 +3,6 @@ const axios = require("axios");
 export default {
 
 
-
   getAllUsers: () => {
     return axios.get("/api/user");
   },
@@ -30,12 +29,11 @@ getOneUser: id => {
     return axios.get("/logout")
   },
 
-  getOneFavorite: id => {
-    return axios.get(`/api/favorites/${id}`);
+  getAllFavorites: (userId) => {
+    return axios.get(`/api/favorites/${userId}`);
   },
-  getFavorite: (userId, favoriteObj) => {
-    console.log(favoriteObj)
-    return axios.put(`/api/user/${userId}`, favoriteObj);
+  getFavorite: (userId, url) => {
+ return axios.put(`/api/user/${userId}`,url);
   },
   
   

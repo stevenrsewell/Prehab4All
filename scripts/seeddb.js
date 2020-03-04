@@ -33,24 +33,24 @@ db.User
   });
   
   
-  const favoriteSeed = [
-    {
-      media_id:"2058854493237584990_3104565825"
+  // const favoriteSeed = [
+  //   {
+  //    url:"https://www.instagram.com/p/B835m7mnsTQ"
     
-    }
-  ];
+  //   }
+  // ];
 
-  db.Favorite
-  .remove({})
-  .then(() => db.Favorite.collection.insertMany(favoriteSeed))
-  .then(data => {
-    console.log(data.result.n + " records inserted!");
-    process.exit(0);
-  })
-  .catch(err => {
-    console.error(err);
-    process.exit(1);
-  });
+  // db.Favorite
+  // .remove({})
+  // .then(() => db.Favorite.collection.insertMany(favoriteSeed))
+  // .then(data => {
+  //   console.log(data.result.n + " records inserted!");
+  //   process.exit(0);
+  // })
+  // .catch(err => {
+  //   console.error(err);
+  //   process.exit(1);
+  // });
   
 
 

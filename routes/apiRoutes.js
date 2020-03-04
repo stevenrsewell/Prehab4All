@@ -1,65 +1,71 @@
 
 const db = require("../models");
 const axios = require("axios");
+const mongoose = require("mongoose");
+
+var ObjectId = require('mongoose').Types.ObjectId;
+module.exports = function (app) {
 
 
-module.exports = function(app) {
 
-
-
-    app.get("/api/user", (req, res) => {
-        db.User.find({})
-          .populate("getFavorite")
-          .then(dbUser => {
-            res.json(dbUser);
-          })
-          .catch(err => {
-            res.send(err);
-          });
+  app.get("/api/user/:id", (req, res) => {
+    db.User.find({})
+      .populate("favorites")
+      .then(dbUser => {
+        res.json(dbUser);
+      })
+      .catch(err => {
+        res.send(err);
       });
-      app.get("/api/user/login/:email", (req, res) => {
-        db.User.findOne({ email: req.params.email })
-          .then(dbUser => {
-            res.json(dbUser);
-          })
-          .catch(err => {
-            res.send(err);
-          });
+  });
+  app.get("/api/user/login/:email", (req, res) => {
+    db.User.findOne({ email: req.params.email })
+      .then(dbUser => {
+        res.json(dbUser);
+      })
+      .catch(err => {
+        res.send(err);
       });
+  });
 
+  //To update the users model with favorites.
+  app.put("/api/user/:id", (req, res) => {
+    console.log("working", req.body)
+    var stringUrl = JSON.stringify(req.body)
+    db.User.findByIdAndUpdate(
+      req.params.id,
+      {
+        $push: {
+          favorites: stringUrl
+        }
+      },
+      { new: true }
+    )
 
-
-      app.get("/api/favorites/id/:media_id", (req, res) => {
-        db.favorites.findOne({ media_id: req.params.media_id })
-          .then(favorite => {
-            res.json(favorite);
-          })
-          .catch(err => {
-            res.send(err);
-          });
+      .then(dbUser => {
+        res.json(dbUser);
+      })
+      .catch(err => {
+        console.log(err)
+        res.send(err);
       });
-      app.put("/api/user/:id", (req, res) => {
-        db.Favorite.create(req.body)
-          .then(dbFavorite =>
-            db.User.findOneAndUpdate(
-              { _id: req.params.id },
-              {
-                $push: {
-                 getFavorite: dbFavorite.id
-                }
-              },
-              { new: true }
-            )
-          )
-          .then(dbUser => {
-            res.json(dbUser);
-          })
-          .catch(err => {
-            res.send(err);
-          });
+  });
+
+  app.get("/api/favorites/:id", (req, res) => {
+    console.log(req.params.id);
+    var objectId = mongoose.Types.ObjectId(req.params.id);
+    db.User.find({
+      _id:  objectId 
+    })
+      .then(dbUser => {
+        res.json(dbUser);
+      })
+      .catch(err => {
+        res.json(err);
       });
+  });
 
 
-      
-   
+
+
 };

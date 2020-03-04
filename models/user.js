@@ -25,9 +25,9 @@ email: {
     required: true,
     minlength: [6, "Password must be at least 6 characters."]
   },
-  getFavorite: [
+  favorites: [
     {
-      type: Schema.Types.ObjectId,
+      type: String,
       ref: "Favorite"
     }
   ]
