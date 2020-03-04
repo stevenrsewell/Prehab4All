@@ -4,8 +4,12 @@ import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
+import AOS from "aos";
 
 function Shoulder() {
+  AOS.init({
+    duration: 2000
+      })
   return (
     <div>
       <NavbarC />
@@ -15,7 +19,7 @@ function Shoulder() {
         </HeroSmall>
         <Container style={{ marginTop: 55, marginRight: 190 }}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -36,7 +40,7 @@ function Shoulder() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <br></br>
                 <h4>Dr. Tony Comella PT, DPT, CSCS</h4>
               </div>
@@ -55,11 +59,9 @@ function Shoulder() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -80,7 +82,7 @@ function Shoulder() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>Dr. Nick Helton, PT, DPT, OCS</h4>
               </div>
               <div className="row" font="bold">
@@ -98,11 +100,9 @@ function Shoulder() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -123,7 +123,7 @@ function Shoulder() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>Joe Yoon</h4>
               </div>
               <div className="row" font="bold">
@@ -141,11 +141,9 @@ function Shoulder() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -166,7 +164,7 @@ function Shoulder() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>The Prehab Guys</h4>
               </div>
               <div className="row" font="bold">
@@ -203,6 +201,4 @@ function Shoulder() {
     </div>
   );
 }
-
-
 export default Shoulder;

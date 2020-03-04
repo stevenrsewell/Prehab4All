@@ -4,8 +4,11 @@ import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
-
+import AOS from "aos";
 function Myofascial() {
+  AOS.init({
+    duration: 3000
+      })
   return (
     <div>
       <NavbarC />
@@ -15,7 +18,7 @@ function Myofascial() {
         </HeroSmall>
         <Container style={{ marginTop: 55, marginRight: 190 }}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -36,7 +39,8 @@ function Myofascial() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <br></br>
                 <h4>Joe Yoon</h4>
               </div>
@@ -55,12 +59,11 @@ function Myofascial() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Br0D99DgkF0'
@@ -80,14 +83,14 @@ function Myofascial() {
             </div>
             <div className="col-lg-6">
               <br></br>
+              <br></br>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BrSjGBwgrc4'
@@ -107,14 +110,14 @@ function Myofascial() {
             </div>
             <div className="col-lg-6">
               <br></br>
+              <br></br>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BjbDgN8Fapv'
@@ -134,7 +137,8 @@ function Myofascial() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <h4>Dr. Jacob Harden</h4>
               </div>
               <div className="row" font="bold">
@@ -149,7 +153,6 @@ function Myofascial() {
               </div>
               <div className="row" font="bold">
                 <p><a href="https://www.youtube.com/channel/UCvaTM4jXDACmZMFUYDNGeDw">Dr. Harden's Youtube Channel</a></p>
-
               </div>
             </div>
           </div>
@@ -158,5 +161,4 @@ function Myofascial() {
     </div>
   );
 }
-
 export default Myofascial;

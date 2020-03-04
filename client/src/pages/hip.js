@@ -4,8 +4,13 @@ import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
-
+import AOS from "aos";
 function Hip() {
+  // componentDidMount(){
+    AOS.init({
+      duration: 2000
+        })
+  // }
   return (
     <div>
       <NavbarC />
@@ -15,7 +20,7 @@ function Hip() {
         </HeroSmall>
         <Container style={{ marginTop: 55, marginRight: 190 }}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <InstagramEmbed
@@ -36,7 +41,7 @@ function Hip() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <br></br>
                 <h4>Dr. Jacob Harden</h4>
               </div>
@@ -54,13 +59,12 @@ function Hip() {
                 <p><a href="https://www.youtube.com/channel/UCvaTM4jXDACmZMFUYDNGeDw">Dr. Harden's Youtube Channel</a></p>
               </div>
             </div>
-          </div>
-
+            </div>
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Bz9ZgrRFKxV'
@@ -78,10 +82,10 @@ function Hip() {
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
-
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <h4>Dr. Katie Clare</h4>
               </div>
               <div className="row" font="bold">
@@ -96,12 +100,11 @@ function Hip() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/Bz_Gwm6jX3V'
@@ -121,7 +124,8 @@ function Hip() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <h4>Dr. Kip Thorstenson, DPT, CSCS</h4>
               </div>
               <div className="row" font="bold">
@@ -136,12 +140,11 @@ function Hip() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/BzqK8Alj0aN'
@@ -160,6 +163,7 @@ function Hip() {
               </p>
             </div>
             <div className="col-lg-6">
+              <br></br>
               <br></br>
               <div className="row" font="bold">
                 <h4>The Prehab Guys</h4>
@@ -190,7 +194,7 @@ function Hip() {
               </div>
               <div className="row" font="bold">
                 <br></br>
-
+                <hr></hr>
               </div>
             </div>
           </div>
@@ -199,5 +203,4 @@ function Hip() {
     </div>
   );
 }
-
 export default Hip;

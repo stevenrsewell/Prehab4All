@@ -4,8 +4,11 @@ import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
-
+import AOS from "aos";
 function Cervical() {
+  AOS.init({
+    duration: 2000
+      })
   return (
     <div>
       <NavbarC />
@@ -15,9 +18,10 @@ function Cervical() {
         </HeroSmall>
         <Container style={{ marginTop: 55, marginRight: 190 }}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
+                <div data-aos="fade-right">
                 <InstagramEmbed
                   url='https://www.instagram.com/p/B835m7mnsTQ'
                   maxWidth={400}
@@ -30,13 +34,15 @@ function Cervical() {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
+                </div>
                 {/* <iframe src="https://www.instagram.com/p/B835m7mnsTQ/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button variant="dark" type="submit">Favorite</Button>
               </p>
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <br></br>
                 <h4>Dr. Caleb Burgess PT, DPT, OCS, CSCS</h4>
               </div>
@@ -55,12 +61,11 @@ function Cervical() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/p/ByShUDZpKRe'
@@ -80,7 +85,8 @@ function Cervical() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <h4>Dr. Samuel Spinelli, DPT, CSCS</h4>
               </div>
               <div className="row" font="bold">
@@ -98,12 +104,11 @@ function Cervical() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/p/ByiRqe9BlqW'
@@ -123,7 +128,8 @@ function Cervical() {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <div className="row" font="bold">
+              <br></br>
+              <div font="bold">
                 <h4>Dr. Adam McCluskey, PT, DPT</h4>
               </div>
               <div className="row" font="bold">
@@ -141,12 +147,11 @@ function Cervical() {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
+                <br></br>
                 <br></br>
                 <InstagramEmbed
                   url='https://www.instagram.com/p/B8ti583gwuZ'
@@ -166,6 +171,7 @@ function Cervical() {
             </div>
             <div className="col-lg-6">
               <br></br>
+              <br></br>
               <div className="row" font="bold">
                 <h4>Performance Sport and Spine Chiropractic Clinic</h4>
               </div>
@@ -180,14 +186,15 @@ function Cervical() {
               </div>
               <div className="row" font="bold">
                 <p>Address<br></br>16770 NE 79th Street Suite 100<br></br>Redmond, WA 98052</p>
-
               </div>
             </div>
           </div>
         </Container>
       </div>
+      <script>
+        window.AOS.init();
+      </script>
     </div>
   );
 }
-
 export default Cervical;
