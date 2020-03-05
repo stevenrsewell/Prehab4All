@@ -5,8 +5,6 @@ import NavbarC from "../components/NavbarC/index";
 import API from "../utils/API"
 import FavoriteResult from "../components/FavoriteResult";
 
-
-
 function Myvideos(props) {
 
   //state to hold the repsonse

@@ -7,7 +7,7 @@ export default {
     return axios.get("/api/user");
   },
 
-getOneUser: id => {
+  getOneUser: id => {
     return axios.get(`/api/user/${id}`);
   },
   getLoggedUser: data => {
