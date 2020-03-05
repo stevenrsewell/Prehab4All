@@ -1,6 +1,5 @@
 const User = require("../models/user");
 
-// const passport = require("../config/passport");
 module.exports = function(app, passport) {
   app.post("/", (req, res) => {
     console.log("user signup");
@@ -27,7 +26,7 @@ module.exports = function(app, passport) {
     });
   });
 
-  //   creates one user
+  // creates one user
   app.post("/api/user", (req, res) => {
     User.create({
       firstName: req.body.firstName,
@@ -53,15 +52,6 @@ module.exports = function(app, passport) {
       });
   }
 
-//   app.get("/choices", (req, res, next) => {
-//     console.log("===== user!!======");
-//     console.log(req.user);
-//     if (req.user) {
-//       res.json({ user: req.user });
-//     } else {
-//       res.json({ user: null });
-//     }
-//   });
 
 
 
