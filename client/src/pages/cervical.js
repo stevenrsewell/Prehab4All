@@ -55,9 +55,9 @@ API.getFavorite(userId, url).then(function () {
               <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
+                <div font="bold">
                   <br></br>
-                  <h4>Dr. Caleb Burgess PT, DPT, OCS, CSCS</h4>
+                  <h4 align="center">Dr. Caleb Burgess PT, DPT, OCS, CSCS</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Burgess on Instagram</a></h5>
@@ -99,8 +99,8 @@ API.getFavorite(userId, url).then(function () {
               <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
-                  <h4>Dr. Samuel Spinelli, DPT, CSCS</h4>
+                <div font="bold">
+                  <h4 align="center">Dr. Samuel Spinelli, DPT, CSCS</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/dr.samspinelli/">Dr. Spinelli on Instagram</a></h5>
@@ -142,8 +142,8 @@ API.getFavorite(userId, url).then(function () {
               <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
-                  <h4>Dr. Adam McCluskey, PT, DPT</h4>
+                <div font="bold">
+                  <h4 align="center">Dr. Adam McCluskey, PT, DPT</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/theptinitiative/">The PT Initiative Instagram</a></h5>
@@ -185,7 +185,7 @@ API.getFavorite(userId, url).then(function () {
               <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
+                  <div font="bold">
                   <h4>Performance Sport and Spine Chiropractic Clinic</h4>
                 </div>
                 <div className="row" font="bold">

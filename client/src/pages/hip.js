@@ -166,8 +166,8 @@ function Hip() {
             <div className="col-lg-6">
               <br></br>
               <br></br>
-              <div className="row" font="bold">
-                <h4 align="center">The Prehab Guys</h4>
+              <div font="bold">
+              <h4 align="center">The Prehab Guys</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/theprehabguys">The Prehab Guys on Instagram</a></h5>
