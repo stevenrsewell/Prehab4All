@@ -60,25 +60,20 @@ function Signup() {
 
   return (
     <Container>
-      {/* Signup */}
       <>
       <br></br>
         <Button id="sign-up-modal-button" onClick={handleShow}>
           <i id="sign-up-button-icon" className="fas fa-user-plus"></i>
           <p>Sign-Up</p>
         </Button>
-
-
-        <Modal show={show} onHide={handleClose}>
+         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
             <Modal.Title id="modal-heading">
               <br/>
                 Sign-Up
               </Modal.Title>
           </Modal.Header>
-
-
-            <Modal.Body id="login-modal-body">
+          <Modal.Body id="login-modal-body">
             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon1">
@@ -95,9 +90,7 @@ function Signup() {
                 onChange={handleFirstName}
               />
             </InputGroup>
-
-
-            <InputGroup className="mb-3">
+           <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon1">
                 <i id="first-name-logo" className="fas fa-leaf"></i> Last Name
@@ -131,9 +124,7 @@ function Signup() {
                 onChange={handleEmail}
               />
             </InputGroup>
-
-
-            <InputGroup className="mb-3">
+           <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon2">
                   <i id="password-logo" className="fas fa-cloud-rain"></i> Password
@@ -149,9 +140,7 @@ function Signup() {
                 onChange={handlePassword}
               />
             </InputGroup>
-
-
-            <InputGroup className="mb-3">
+             <InputGroup className="mb-3">
               <InputGroup.Prepend>
                 <InputGroup.Text id="basic-addon2">
                   <i id="confirm-logo" className="fas fa-cloud"></i> Confirm
@@ -165,8 +154,6 @@ function Signup() {
               />
             </InputGroup>
           </Modal.Body>
-
-
           <Modal.Footer>
             <Button id="submit" variant="primary" onClick={handleSubmit}>
               <i id="submit-logo" className="fas fa-tree"></i> Submit
