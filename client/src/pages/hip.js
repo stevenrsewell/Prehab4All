@@ -5,6 +5,7 @@ import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
 import AOS from "aos";
+
 function Hip() {
   // componentDidMount(){
     AOS.init({
@@ -43,7 +44,7 @@ function Hip() {
               <br></br>
               <div font="bold">
                 <br></br>
-                <h4>Dr. Jacob Harden</h4>
+                <h4 align="center">Dr. Jacob Harden</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Harden on Instagram</a></h5>
@@ -86,7 +87,7 @@ function Hip() {
               <br></br>
               <br></br>
               <div font="bold">
-                <h4>Dr. Katie Clare</h4>
+                <h4 align="center">Dr. Katie Clare</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/drkatie_clare/">Dr. Clare on Instagram</a></h5>
@@ -126,7 +127,7 @@ function Hip() {
               <br></br>
               <br></br>
               <div font="bold">
-                <h4>Dr. Kip Thorstenson, DPT, CSCS</h4>
+                <h4 align="center">Dr. Kip Thorstenson, DPT, CSCS</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/teachbyexample/">Teach By Example Instagram</a></h5>
@@ -166,7 +167,7 @@ function Hip() {
               <br></br>
               <br></br>
               <div className="row" font="bold">
-                <h4>The Prehab Guys</h4>
+                <h4 align="center">The Prehab Guys</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/theprehabguys">The Prehab Guys on Instagram</a></h5>

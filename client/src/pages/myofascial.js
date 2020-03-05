@@ -42,7 +42,7 @@ function Myofascial() {
               <br></br>
               <div font="bold">
                 <br></br>
-                <h4>Joe Yoon</h4>
+                <h4 align="center">Joe Yoon</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="http://instagram.com/joetherapy">JoeTherapy on Instagram</a></h5>
@@ -139,7 +139,7 @@ function Myofascial() {
               <br></br>
               <br></br>
               <div font="bold">
-                <h4>Dr. Jacob Harden</h4>
+                <h4 align="center">Dr. Jacob Harden</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Harden on Instagram</a></h5>

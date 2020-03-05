@@ -42,7 +42,7 @@ function Shoulder() {
               <br></br>
               <div font="bold">
                 <br></br>
-                <h4>Dr. Tony Comella PT, DPT, CSCS</h4>
+                <h4 align="center">Dr. Tony Comella PT, DPT, CSCS</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/tony.comella/">Dr. Comella on Instagram</a></h5>
@@ -83,7 +83,7 @@ function Shoulder() {
             <div className="col-lg-6">
               <br></br>
               <div font="bold">
-                <h4>Dr. Nick Helton, PT, DPT, OCS</h4>
+                <h4 align="center">Dr. Nick Helton, PT, DPT, OCS</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/dr.nick.dpt/">Dr. Helton on Instagram</a></h5>
@@ -124,7 +124,7 @@ function Shoulder() {
             <div className="col-lg-6">
               <br></br>
               <div font="bold">
-                <h4>Joe Yoon</h4>
+                <h4 align="center">Joe Yoon</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="http://instagram.com/joetherapy">JoeTherapy on Instagram</a></h5>
@@ -165,7 +165,7 @@ function Shoulder() {
             <div className="col-lg-6">
               <br></br>
               <div font="bold">
-                <h4>The Prehab Guys</h4>
+                <h4 align="center">The Prehab Guys</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/theprehabguys">The Prehab Guys on Instagram</a></h5>
