@@ -63,7 +63,7 @@ handleSubmit (e) {
               <br></br>
               <div font="bold">
                 <br></br>
-                <h4>Dr. Tony Comella PT, DPT, CSCS</h4>
+                <h4 align="center">Dr. Tony Comella PT, DPT, CSCS</h4>
               </div>
               <div className="row" font="bold">
                 <h5><a href="https://www.instagram.com/tony.comella/">Dr. Comella on Instagram</a></h5>
