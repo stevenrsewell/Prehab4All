@@ -14,27 +14,29 @@ import Choices from "./pages/Choices"
 import Myvideos from "./pages/Favorite"
 import Wrapper from "./components/Wrapper";
 
+
+
+
 function App() {
 
   return (
-    <Router>
+     <Router>
       <div>
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signup" component={Signup} />
-          <Route exact path="/choices" component={Choices} />
-          <Route exact path="/hip" component={hip} />
-          <Route exact path="/shoulder" component={shoulder} />
-          <Route exact path="/myofascial" component={myofascial} />
-          <Route exact path="/cervical" component={cervical} />
-          <Route exact path="/myvideos" component={Myvideos} />
-
-        </Wrapper>
-        {/* <Footer />  */}
+          <Wrapper>           
+              <Route exact path="/" component={About} /> 
+              <Route exact path="/about" component={About} />   
+              <Route exact path="/login" component={Login} />
+              <Route exact path="/signup" component={Signup} />
+              <Route exact path="/choices" component={Choices} />
+              <Route exact path="/hip" component={hip} />
+              <Route exact path="/shoulder" component={shoulder} />
+              <Route exact path="/myofascial" component={myofascial} />
+              <Route exact path="/cervical" component={cervical} />
+              <Route exact path="/favorites" component={Myvideos} />
+               </Wrapper> 
       </div>
     </Router>
+    
 
   );
 }
