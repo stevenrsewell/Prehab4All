@@ -41,7 +41,6 @@ handleSubmit (e) {
             <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/B2mC2C2DPiM'
                   maxWidth={400}
@@ -62,8 +61,7 @@ handleSubmit (e) {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <br></br>
                 <h4>Dr. Tony Comella PT, DPT, CSCS</h4>
               </div>
@@ -82,15 +80,11 @@ handleSubmit (e) {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
             <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/p/BrpujmWl5iW'
                   maxWidth={400}
@@ -112,8 +106,7 @@ handleSubmit (e) {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>Dr. Nick Helton, PT, DPT, OCS</h4>
               </div>
               <div className="row" font="bold">
@@ -128,19 +121,14 @@ handleSubmit (e) {
               </div>
               <div className="row" font="bold">
                 <p><a href="https://drnickhelton.com/">Dr. Helton's Website</a></p>
-
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
             <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/B3kANWyAi5I'
                   maxWidth={400}
@@ -161,8 +149,7 @@ handleSubmit (e) {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>Joe Yoon</h4>
               </div>
               <div className="row" font="bold">
@@ -180,15 +167,11 @@ handleSubmit (e) {
               </div>
             </div>
           </div>
-
           <hr></hr>
-
           <div className="row">
             <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
-                <br></br>
-
                 <InstagramEmbed
                   url='https://www.instagram.com/tv/B33bfcZi3Lc'
                   maxWidth={400}
@@ -208,8 +191,7 @@ handleSubmit (e) {
             </div>
             <div className="col-lg-6">
               <br></br>
-              <br></br>
-              <div className="row" font="bold">
+              <div font="bold">
                 <h4>The Prehab Guys</h4>
               </div>
               <div className="row" font="bold">
@@ -247,5 +229,4 @@ handleSubmit (e) {
   );
 }
 }
-
 export default Shoulder;

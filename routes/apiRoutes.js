@@ -1,24 +1,10 @@
 
 const db = require("../models");
-const axios = require("axios");
 const mongoose = require("mongoose");
 
-var ObjectId = require('mongoose').Types.ObjectId;
+
 module.exports = function (app) {
 
-
-
-  // app.get("/api/user/:id", (req, res) => {
-  //   db.User.find({})
-  //     .populate("favorites")
-  //     .then(dbUser => {
-  //       res.json(dbUser);
-  //     })
-  //     .catch(err => {
-  //       res.send(err);
-  //     });
-  // });
-  
   //finding the user
   app.get("/api/user/login/:email", (req, res) => {
     db.User.findOne({ email: req.params.email })

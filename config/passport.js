@@ -44,7 +44,6 @@ module.exports = passport => {
       {
         usernameField: "email",
         passwordField: "password"
-        // passReqToCallback: true
       },
 
       function(email, password, done) {
@@ -85,5 +84,4 @@ module.exports = passport => {
     });
   });
 };
-
 

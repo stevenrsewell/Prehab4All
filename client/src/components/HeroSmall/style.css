@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  width:100%;
 }
 
 .hero::after {
@@ -28,6 +29,7 @@
 
 .herosmall h1 {
   font-size: 60px;
-  padding-top: 80px;
+  padding-top: 45px;
   margin-top: 0;
+
 }
