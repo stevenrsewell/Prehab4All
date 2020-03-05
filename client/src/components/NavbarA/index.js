@@ -8,13 +8,7 @@ import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavbarA() {
-<<<<<<< HEAD
-
-
-
-=======
   //retrieving the userid from local storage 
->>>>>>> prehab
   let userId = localStorage.getItem("userID");
   return (
     <div>
