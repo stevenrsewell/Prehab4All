@@ -19,7 +19,7 @@ function NavbarC() {
         <ul className="navbar-nav">
         
           <Col>
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/Choices">
               Prehab
                 </Link>
           </Col>
@@ -96,17 +96,9 @@ function NavbarC() {
           <Col></Col>
           <Col></Col>
           <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col> 
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-         
- 
+
           <Col>
+
           <li className="nav-item">
               <button onClick={handleLogOut}>LogOut</button>
             </li>

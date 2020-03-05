@@ -80,7 +80,6 @@ class Myofascial extends Component {
                 </div>
               </div>
             </div>
-
             <hr></hr>
 
             <div className="row">
@@ -173,33 +172,3 @@ class Myofascial extends Component {
 
                 </p>
               </div>
-              <div className="col-lg-6">
-                <br></br>
-                <br></br>
-                <div className="row" font="bold">
-                  <h4>Dr. Jacob Harden</h4>
-                </div>
-                <div className="row" font="bold">
-                  <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Harden on Instagram</a></h5>
-                </div>
-                <div className="row" font="bold">
-                  <br></br>
-                  <p>Director of Rehabilitation at Orlando Sports Rehab</p>
-                </div>
-                <div className="row" font="bold">
-                  <p>Doctor Jacob Harden is a chiropractor currently practicing in Florida who creates prehabilitation and rehab content on social media.</p>
-                </div>
-                <div className="row" font="bold">
-                  <p><a href="https://www.youtube.com/channel/UCvaTM4jXDACmZMFUYDNGeDw">Dr. Harden's Youtube Channel</a></p>
-
-                </div>
-              </div>
-            </div>
-          </Container>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default Myofascial;
