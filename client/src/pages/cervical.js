@@ -6,35 +6,25 @@ import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
 import API from "../utils/API"
 import AOS from "aos";
-
-
 //Cervical component
-
 class Cervical extends Component {
   constructor(props) {
-
     super(props)
     AOS.init({
       duration: 2000
         })
   }
-
   handleSubmit(e) {
     var url = e.target.value;
     console.log(url)
     let userId = localStorage.getItem("userID");
 API.getFavorite(userId, url).then(function () {
       window.location.replace("/favorites");
-
     })
   }
-  
   render() {
-   
     return (
-     
       <div>
-        
         <NavbarC />
         <div>
           <HeroSmall backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
@@ -57,18 +47,17 @@ API.getFavorite(userId, url).then(function () {
                     onAfterRender={() => { }}
                     onFailure={() => { }}
                   />
-
                   <Button
                     value='https://www.instagram.com/p/B835m7mnsTQ'
                     onClick={this.handleSubmit}>Favorite</Button>
                 </p>
               </div>
-              <div className="col-lg-6" >
+              <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
+                <div font="bold">
                   <br></br>
-                  <h4>Dr. Caleb Burgess PT, DPT, OCS, CSCS</h4>
+                  <h4 align="center">Dr. Caleb Burgess PT, DPT, OCS, CSCS</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Burgess on Instagram</a></h5>
@@ -83,18 +72,14 @@ API.getFavorite(userId, url).then(function () {
                 <div className="row" font="bold">
                   <p><a href="https://drcalebburgess.com/">Dr. Burguess Website</a></p>
                 </div>
-
               </div>
             </div>
-
             <hr></hr>
-
             <div className="row">
               <div className="col-lg-6" data-aos="fade-right">
                 <p>
                   <br></br>
                   <br></br>
-
                   <InstagramEmbed
                     url='https://www.instagram.com/p/ByShUDZpKRe'
                     maxWidth={400}
@@ -114,8 +99,8 @@ API.getFavorite(userId, url).then(function () {
               <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
-                  <h4>Dr. Samuel Spinelli, DPT, CSCS</h4>
+                <div font="bold">
+                  <h4 align="center">Dr. Samuel Spinelli, DPT, CSCS</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/dr.samspinelli/">Dr. Spinelli on Instagram</a></h5>
@@ -129,19 +114,15 @@ API.getFavorite(userId, url).then(function () {
                 </div>
                 <div className="row" font="bold">
                   <p><a href="https://www.instagram.com/e3rehab/">E3Rehab Instagram</a></p>
-
                 </div>
               </div>
             </div>
-
             <hr></hr>
-
             <div className="row">
-              <div className="col-lg-6" data-aos="fade-right">
+              <div className="col-lg-6" data-aos="fade-right"> 
                 <p>
                   <br></br>
                   <br></br>
-
                   <InstagramEmbed
                     url='https://www.instagram.com/p/ByiRqe9BlqW'
                     maxWidth={400}
@@ -158,11 +139,11 @@ API.getFavorite(userId, url).then(function () {
                     onClick={this.handleSubmit}>Favorite</Button>
                 </p>
               </div>
-              <div className="col-lg-6" >
+              <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
-                  <h4>Dr. Adam McCluskey, PT, DPT</h4>
+                <div font="bold">
+                  <h4 align="center">Dr. Adam McCluskey, PT, DPT</h4>
                 </div>
                 <div className="row" font="bold">
                   <h5><a href="https://www.instagram.com/theptinitiative/">The PT Initiative Instagram</a></h5>
@@ -176,19 +157,15 @@ API.getFavorite(userId, url).then(function () {
                 </div>
                 <div className="row" font="bold">
                   <p><a href="https://www.youtube.com/channel/UCG5NQx7QqG8q2alfkjuP5Nw">The PT Initiative Youtube</a></p>
-
                 </div>
               </div>
             </div>
-
             <hr></hr>
-
             <div className="row">
-              <div className="col-lg-6" data-aos="fade-right" >
+              <div className="col-lg-6" data-aos="fade-right">
                 <p>
                   <br></br>
                   <br></br>
-
                   <InstagramEmbed
                     url='https://www.instagram.com/p/B8ti583gwuZ'
                     maxWidth={400}
@@ -205,10 +182,10 @@ API.getFavorite(userId, url).then(function () {
                     onClick={this.handleSubmit}>Favorite</Button>
                 </p>
               </div>
-              <div className="col-lg-6" data-aos="fade-right">
+              <div className="col-lg-6">
                 <br></br>
                 <br></br>
-                <div className="row" font="bold">
+                  <div font="bold">
                   <h4>Performance Sport and Spine Chiropractic Clinic</h4>
                 </div>
                 <div className="row" font="bold">
@@ -222,7 +199,6 @@ API.getFavorite(userId, url).then(function () {
                 </div>
                 <div className="row" font="bold">
                   <p>Address<br></br>16770 NE 79th Street Suite 100<br></br>Redmond, WA 98052</p>
-
                 </div>
               </div>
             </div>
@@ -232,5 +208,4 @@ API.getFavorite(userId, url).then(function () {
     );
   }
 }
-
 export default Cervical;

@@ -9,7 +9,7 @@ import API from "../../utils/API"
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavbarA() {
 
-  
+
 
   let userId = localStorage.getItem("userID");
 
@@ -57,7 +57,7 @@ function NavbarA() {
                 Choices
               </Link>
             </li>
-            
+
           </ul>
 
         )
