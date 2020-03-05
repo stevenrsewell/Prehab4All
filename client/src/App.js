@@ -1,8 +1,6 @@
-// import React, { Component } from "react";
+
 import React from "react";
-// import { HashRouter, Route, Link } from "react-router-dom";
-// import { BrowserRouter as Router} from "react-router-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import hip from "./pages/hip";
 import shoulder from "./pages/shoulder";

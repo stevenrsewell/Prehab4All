@@ -1,27 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import API from "../../utils/API"
+
 
 
 
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavbarA() {
+<<<<<<< HEAD
 
 
 
+=======
+  //retrieving the userid from local storage 
+>>>>>>> prehab
   let userId = localStorage.getItem("userID");
-
-
-  console.log(userId);
-
-
   return (
     <div>
       {!userId || userId === "" ? (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-
           <div>
             <ul className="navbar-nav">
 

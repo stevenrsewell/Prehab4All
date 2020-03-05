@@ -1,7 +1,5 @@
 import React  ,{ Component } from "react";
 import InstagramEmbed from 'react-instagram-embed';
-import API from "../../utils/API"
-import Button from "react-bootstrap/Button";
 class FavoriteResult extends Component {
   constructor(props) {
 

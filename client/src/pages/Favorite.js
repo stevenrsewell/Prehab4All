@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import HeroSmall from "../components/HeroSmall";
 import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
-import InstagramEmbed from 'react-instagram-embed';
 import API from "../utils/API"
 import FavoriteResult from "../components/FavoriteResult";
 

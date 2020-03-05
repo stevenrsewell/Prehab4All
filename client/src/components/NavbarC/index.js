@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from "../Container";
-import Row from "../Row";
 import Col from "../Col";
 import "./style.css";
 import API from "../../utils/API"
@@ -9,9 +7,7 @@ import API from "../../utils/API"
 
 function handleLogOut() {
   API.logout().then(function() {
-    console.log("logged out")
-    
-  })
+     })
   localStorage.clear();
   window.location.replace("/");
 }
