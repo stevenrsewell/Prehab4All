@@ -4,52 +4,61 @@ import Container from "../components/Container";
 import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
+import API from "../utils/API"
 import AOS from "aos";
 
-function Hip() {
-  // componentDidMount(){
+class Hip extends Component {
+  constructor(props) {
+
+    super(props)
     AOS.init({
       duration: 2000
         })
-  // }
-  return (
-    <div>
-      <NavbarC />
+  }
+
+  handleSubmit(e) {
+    var url = e.target.value;
+    console.log(url)
+    let userId = localStorage.getItem("userID");
+    API.getFavorite(userId, url).then(function () {
+      window.location.replace("/favorites");
+
+    })
+  }
+  render() {
+
+    return (
       <div>
-        <HeroSmall backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
-          <h1>Hip Videos</h1>
-        </HeroSmall>
-        <Container style={{ marginTop: 55, marginRight: 190 }}>
-          <div className="row">
-            <div className="col-lg-6" data-aos="fade-right">
-              <p>
-                <br></br>
-                <InstagramEmbed
-                  url='https://www.instagram.com/tv/BpDhNwEAiGh'
-                  maxWidth={400}
-                  hideCaption={true}
-                  containerTagName='div'
-                  protocol=''
-                  injectScript
-                  onLoading={() => { }}
-                  onSuccess={() => { }}
-                  onAfterRender={() => { }}
-                  onFailure={() => { }}
-                />
-                {/* <iframe src="https://www.instagram.com/p/BpDhNwEAiGh/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>; */}
-                <Button variant="dark" type="submit">Favorite</Button>
-              </p>
-            </div>
-            <div className="col-lg-6">
-              <br></br>
-              <div font="bold">
-                <br></br>
-                <h4 align="center">Dr. Jacob Harden</h4>
+        <NavbarC />
+        <div>
+          <HeroSmall backgroundImage="https://kromboommedical.co.za/wp-content/uploads/2016/09/image3.jpg">
+            <h1>Hip Videos</h1>
+          </HeroSmall>
+          <Container style={{ marginTop: 55, marginRight: 190 }}>
+            <div className="row">
+              <div className="col-lg-6" data-aos="fade-right">
+                <p>
+                  <br></br>
+
+                  <InstagramEmbed
+                    url='https://www.instagram.com/tv/BpDhNwEAiGh'
+                    maxWidth={400}
+                    hideCaption={true}
+                    containerTagName='div'
+                    protocol=''
+                    injectScript
+                    onLoading={() => { }}
+                    onSuccess={() => { }}
+                    onAfterRender={() => { }}
+                    onFailure={() => { }}
+                  />
+                  <Button
+                    value='https://www.instagram.com/tv/BpDhNwEAiGh'
+                    onClick={this.handleSubmit}>Favorite</Button>
+
+                </p>
               </div>
-              <div className="row" font="bold">
-                <h5><a href="https://www.instagram.com/dr.jacob.harden/">Dr. Harden on Instagram</a></h5>
-              </div>
-              <div className="row" font="bold">
+              <div className="col-lg-6">
                 <br></br>
                 <div className="row" font="bold">
                   <br></br>
@@ -230,4 +239,5 @@ function Hip() {
     );
   }
 }
+
 export default Hip;
