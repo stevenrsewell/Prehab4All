@@ -2,6 +2,7 @@ const axios = require("axios");
 
 export default {
 
+
   getAllUsers: () => {
     return axios.get("/api/user");
   },

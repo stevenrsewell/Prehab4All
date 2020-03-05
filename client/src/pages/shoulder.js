@@ -228,4 +228,5 @@ handleSubmit (e) {
     </div>
   );
 }
+}
 export default Shoulder;

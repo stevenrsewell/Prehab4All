@@ -20,3 +20,8 @@ All of the videos come from licensed medical professionals (Doctors of Physical 
 - Express.js
 - MongoDB
 - Morgan
+
+
+<img src=./client/public/Screenshot_cervical.png></img>
+
+<img src=./client/public/Screenshot_splash_page.png></img>
