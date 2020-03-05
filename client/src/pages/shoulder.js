@@ -5,23 +5,24 @@ import NavbarC from "../components/NavbarC/index";
 import InstagramEmbed from 'react-instagram-embed';
 import Button from "react-bootstrap/Button";
 import API from "../utils/API"
-
-
+import AOS from "aos";
+//shoulder class component
 class Shoulder extends Component {
   constructor(props){
 
     super(props)
+    AOS.init({
+      duration: 2000
+        })
   }
 
 handleSubmit (e) {
     var url = e.target.value;
     console.log(url)
+    //storing userId in the local storage.
      let userId = localStorage.getItem("userID");
-     
-     // event.target to get the data-url from the the button and pass it into the get Favorite function
-     
-     
-     API.getFavorite(userId,url).then(function() {
+    //passing userid and url to the API. 
+ API.getFavorite(userId,url).then(function() {
       window.location.replace("/favorites");
 
      })
@@ -37,7 +38,7 @@ handleSubmit (e) {
         </HeroSmall>
         <Container style={{ marginTop: 55, marginRight: 190 }}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
 
@@ -53,8 +54,6 @@ handleSubmit (e) {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
-                {/* <iframe src="https://www.instagram.com/p/B2mC2C2DPiM/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button  
                   value='https://www.instagram.com/p/B2mC2C2DPiM'
                   onClick ={this.handleSubmit}>Favorite</Button>
@@ -87,7 +86,7 @@ handleSubmit (e) {
           <hr></hr>
 
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <br></br>
@@ -104,8 +103,6 @@ handleSubmit (e) {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
-                {/* <iframe src="https://www.instagram.com/p/BrpujmWl5iW/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button  
                   value='https://www.instagram.com/p/BrpujmWl5iW'
                   onClick ={this.handleSubmit}>Favorite</Button>
@@ -139,7 +136,7 @@ handleSubmit (e) {
           <hr></hr>
 
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <br></br>
@@ -156,8 +153,6 @@ handleSubmit (e) {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
-                {/* <iframe src="https://www.instagram.com/tv/B3kANWyAi5I/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button  
                   value='https://www.instagram.com/tv/B3kANWyAi5I'
                   onClick ={this.handleSubmit}>Favorite</Button>
@@ -189,7 +184,7 @@ handleSubmit (e) {
           <hr></hr>
 
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <p>
                 <br></br>
                 <br></br>
@@ -206,8 +201,6 @@ handleSubmit (e) {
                   onAfterRender={() => { }}
                   onFailure={() => { }}
                 />
-
-                {/* <iframe src="https://www.instagram.com/tv/B33bfcZi3Lc/embed/captioned" width="540" height="545" frameBorder="0" scrolling="no" allowtransparency="true"></iframe> */}
                 <Button  
                   value='https://www.instagram.com/tv/B33bfcZi3Lc'
                   onClick ={this.handleSubmit}>Favorite</Button>

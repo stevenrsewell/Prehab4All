@@ -8,16 +8,18 @@ module.exports = function (app) {
 
 
 
-  app.get("/api/user/:id", (req, res) => {
-    db.User.find({})
-      .populate("favorites")
-      .then(dbUser => {
-        res.json(dbUser);
-      })
-      .catch(err => {
-        res.send(err);
-      });
-  });
+  // app.get("/api/user/:id", (req, res) => {
+  //   db.User.find({})
+  //     .populate("favorites")
+  //     .then(dbUser => {
+  //       res.json(dbUser);
+  //     })
+  //     .catch(err => {
+  //       res.send(err);
+  //     });
+  // });
+  
+  //finding the user
   app.get("/api/user/login/:email", (req, res) => {
     db.User.findOne({ email: req.params.email })
       .then(dbUser => {
@@ -27,6 +29,8 @@ module.exports = function (app) {
         res.send(err);
       });
   });
+
+
 
   //To update the users model with favorites.
   app.put("/api/user/:id", (req, res) => {
@@ -41,7 +45,6 @@ module.exports = function (app) {
       },
       { new: true }
     )
-
       .then(dbUser => {
         res.json(dbUser);
       })
@@ -50,22 +53,35 @@ module.exports = function (app) {
         res.send(err);
       });
   });
-
-  app.get("/api/favorites/:id", (req, res) => {
-    console.log(req.params.id);
-    var objectId = mongoose.Types.ObjectId(req.params.id);
-    db.User.find({
-      _id:  objectId 
+  
+  
+//To get all the favorite videos for that user.
+app.get("/api/favorites/:id", (req, res) => {
+  var objectId = mongoose.Types.ObjectId(req.params.id);
+  db.User.find({
+    _id: objectId
+  })
+    .then(dbUser => {
+      res.json(dbUser);
     })
-      .then(dbUser => {
-        res.json(dbUser);
-      })
-      .catch(err => {
-        res.json(err);
-      });
-  });
+    .catch(err => {
+      res.json(err);
+    });
+});
+
+app.get("/api/favorites/:url", (req, res) => {
+  var objectId = mongoose.Types.ObjectId(req.params.id);
+  db.User.find({
+    _id: objectId
+  })
+    .then(dbUser => {
+      res.json(dbUser);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
 
 
+}
 
-
-};

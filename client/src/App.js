@@ -33,9 +33,7 @@ function App() {
               <Route exact path="/myofascial" component={myofascial} />
               <Route exact path="/cervical" component={cervical} />
               <Route exact path="/favorites" component={Myvideos} />
-              
-          </Wrapper> 
-        {/* <Footer />  */}
+               </Wrapper> 
       </div>
     </Router>
     

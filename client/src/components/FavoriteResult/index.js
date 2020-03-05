@@ -1,12 +1,21 @@
-import React from "react";
+import React  ,{ Component } from "react";
 import InstagramEmbed from 'react-instagram-embed';
+import API from "../../utils/API"
+import Button from "react-bootstrap/Button";
+class FavoriteResult extends Component {
+  constructor(props) {
 
-function FavoriteResult(props) {
-  return (
+    super(props)
   
-    <div>
+  }
+  
+  render() {
+  return (
+   
+   <div>
+      <br></br>
       <InstagramEmbed
-      url={props.favorite.url}
+      url={this.props.favorite.url}
       maxWidth={400}
       hideCaption={true}
       containerTagName='div'
@@ -17,8 +26,12 @@ function FavoriteResult(props) {
       onAfterRender={() => { }}
       onFailure={() => { }}
     />
-  </div>
-  );
+
+  <br></br>
+</div>
+  ) 
 }
+}
+  
 
 export default FavoriteResult;

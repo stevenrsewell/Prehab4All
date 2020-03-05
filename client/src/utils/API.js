@@ -35,7 +35,8 @@ getOneUser: id => {
   getFavorite: (userId, url) => {
  return axios.put(`/api/user/${userId}`,url);
   },
+remove: (url)=> {
+    return axios.delete(`/api/favorites/${url}`);
+     }
   
-  
-  
-};
+  };

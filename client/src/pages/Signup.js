@@ -45,6 +45,7 @@ function Signup() {
         console.log(response);
         if (!response.data.errors) {
           console.log("successful signup");
+          window.location.replace("/");
           handleClose();
         } else {
           console.log("This user has already exist");
@@ -61,6 +62,7 @@ function Signup() {
     <Container>
       {/* Signup */}
       <>
+      <br></br>
         <Button id="sign-up-modal-button" onClick={handleShow}>
           <i id="sign-up-button-icon" className="fas fa-user-plus"></i>
           <p>Sign-Up</p>

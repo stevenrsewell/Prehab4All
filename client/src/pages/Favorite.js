@@ -19,16 +19,9 @@ function Myvideos(props) {
 
     API.getAllFavorites(userId).then((res) => {
       console.log("DATA", res.data);
-      // console.log(res.data[0].favorites[0]);
-      // var str = res.data[0].favorites[0];
-
-      // var video = str.slice(2);//to slice at the Beginning 
-      // var videos = video.slice(0, -5);
-      //console.log(videos)
 
       const favoritesFromAPI = res.data[0].favorites.map(favorite => {
         var str = favorite;
-
         var video = str.slice(2);//to slice at the Beginning 
         var videos = video.slice(0, -5);
         return {
