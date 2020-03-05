@@ -55,18 +55,4 @@ app.get("/api/favorites/:id", (req, res) => {
     });
 });
 
-app.get("/api/favorites/:url", (req, res) => {
-  var objectId = mongoose.Types.ObjectId(req.params.id);
-  db.User.find({
-    _id: objectId
-  })
-    .then(dbUser => {
-      res.json(dbUser);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-
 }
