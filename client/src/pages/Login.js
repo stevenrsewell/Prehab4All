@@ -62,7 +62,7 @@ function Login() {
                           onChange={handlePassword} />
                   </div>
                   <div className="text-center">
-                    <MDBBtn className="h5 text-center mb-4" id="sign-in" variant="primary" onClick={handleSignIn}> signin</MDBBtn>
+                    <MDBBtn className="h5 text-center mb-4" id="sign-in" variant="primary" onClick={handleSignIn}> Sign In</MDBBtn>
                   </div>
                 </form>
               </MDBCol>
