@@ -26,6 +26,16 @@ export default {
 
   logout: user => {
     return axios.get("/logout")
-  }
+  },
 
-};
+  getAllFavorites: (userId) => {
+    return axios.get(`/api/favorites/${userId}`);
+  },
+  getFavorite: (userId, url) => {
+ return axios.put(`/api/user/${userId}`,url);
+  },
+remove: (url)=> {
+    return axios.delete(`/api/favorites/${url}`);
+     }
+  
+  };

@@ -11,7 +11,7 @@ import cervical from "./pages/cervical";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Choices from "./pages/Choices"
-import Myvideos from "./pages/Myvideos"
+import Myvideos from "./pages/Favorite"
 import Wrapper from "./components/Wrapper";
 
 function App() {
