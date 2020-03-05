@@ -28,11 +28,7 @@ require("./routes/apiRoutes")(app, passport);
 require("./routes/htmlRoutes")(app, path);
 // Connect to the Mongo DB
 
-
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/prehab");
-
-
-
 
 app.listen(PORT, function() {
   console.log(`:earth_americas:  ==> API Server now listening on PORT ${PORT}!`);

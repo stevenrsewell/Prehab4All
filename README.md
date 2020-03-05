@@ -62,4 +62,3 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 For the versions available, see https://github.com/stevenrsewell/Prehab4All
 # Acknowledgement
 Thank you to Eric Scott, Israel Medina, and Brittany Taylor.
-
